@@ -1,0 +1,2 @@
+# tarotdroid
+TarotDroid Android application
