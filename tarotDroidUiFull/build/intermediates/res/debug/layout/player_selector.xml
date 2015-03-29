@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    	<LinearLayout
+	    	android:id="@+id/mainLayout"  
+	    	android:orientation="vertical" 
+	    	android:layout_height="wrap_content" 
+	    	android:layout_width="fill_parent">
+	    
+    	    <!-- Section joueurs obligatoires -->	
+    	    <LinearLayout
+	    		android:id="@+id/layoutCompulsoryPlayers"  
+	    		android:orientation="vertical" 
+	    		android:layout_height="wrap_content" 
+	    		android:layout_width="fill_parent">
+	    
+		        <LinearLayout
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="center"
+		            android:orientation="vertical" 
+		            android:background="#0f0f0f" >
+		            <TextView
+		                android:layout_width="fill_parent"
+		                android:layout_height="wrap_content"
+		                android:background="#005555"
+		                android:padding="5dip"
+		                style="@style/GameSectionTitleStyle"
+		                android:text="@string/lblCompulsoryPlayersSection" />
+				</LinearLayout>
+			</LinearLayout>
+
+    	    <!-- Section joueurs facultatifs -->	
+    	    <LinearLayout
+	    		android:id="@+id/layoutOptionalPlayers"  
+	    		android:orientation="vertical" 
+	    		android:layout_height="wrap_content" 
+	    		android:layout_width="fill_parent">
+	    
+		        <LinearLayout
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="center"
+		            android:orientation="vertical" 
+		            android:background="#0f0f0f" >
+		            <TextView
+		                android:layout_width="fill_parent"
+		                android:layout_height="wrap_content"
+		                android:background="#005555"
+		                android:padding="5dip"
+		                style="@style/GameSectionTitleStyle"
+		                android:text="@string/lblOptionalPlayerSection" />
+				</LinearLayout>
+				
+		        <org.nla.tarotdroid.lib.ui.controls.PlayerSelectorRow
+		            android:id="@+id/optionalPlayerSelectorRow"   
+	    			android:layout_height="wrap_content" 
+	    			android:layout_width="fill_parent"/>
+			</LinearLayout>
+			
+    	     
+    	    			
+    	</LinearLayout>
+        
+</ScrollView><!-- From: file:/C:/Devs/TarotDroid/tarotDroidUiLib/src/main/res/layout/player_selector.xml --><!-- From: file:/C:/Devs/TarotDroid/tarotDroidUiFull/build/intermediates/exploded-aar/TarotDroid/tarotDroidUiLib/unspecified/res/layout/player_selector.xml -->

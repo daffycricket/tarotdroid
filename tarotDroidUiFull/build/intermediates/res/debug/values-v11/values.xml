@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Devs/TarotDroid/tarotDroidUiFull/build/intermediates/exploded-aar/TarotDroid/libaFileChooser/unspecified/res/values-v11/values.xml -->
+    <eat-comment/>
+    <dimen name="list_item_padding">6dp</dimen>
+    <dimen name="list_padding">12dp</dimen>
+    <string name="choose_file">Choose a file</string>
+    <string name="empty_directory">Empty Directory</string>
+    <string name="storage_removed">Storage was removed or unmounted.</string>
+    <!-- From: file:/C:/Devs/TarotDroid/tarotDroidUiFull/src/main/res/values-v11/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Holo.Light"/>
+    <!-- From: file:/C:/Devs/TarotDroid/tarotDroidUiFull/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/res/values-v11/values.xml -->
+    <eat-comment/>
+    <style name="Sherlock.__Theme" parent="android:Theme.Holo">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Sherlock.__Theme.Light" parent="android:Theme.Holo.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+</resources>

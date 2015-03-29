@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#0f0f0f">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <!-- Section Mort et Distributeur -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical" 
+            android:background="#0f0f0f" >
+
+			<!-- Titre Mort et Distributeur -->
+            <TextView
+                android:id="@+id/txtTitleDeadAndDealer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#005555"
+                android:padding="5dip"
+                style="@style/GameSectionTitleStyle"
+                android:text="@string/lblDealerSection" />
+                
+            <!-- Panel Mort et Distributeur -->
+            <LinearLayout
+                android:id="@+id/panelDeadAndDealer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible" 
+                android:background="#0f0f0f"
+				android:paddingBottom="10dip">
+                
+                <!-- Panel Dead -->
+                <RelativeLayout
+                    android:id="@+id/panelDead"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="visible" 
+                    android:background="#0f0f0f">
+
+                    <TextView
+                        android:id="@+id/txtTitleDead"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dip"
+                        android:background="#0f0f0f"
+                        android:minWidth="130dip"
+                        android:padding="5dip"
+                        style="@style/GameSubsectionTitleStyle"
+                        android:text="@string/lblDeadPlayer" />
+
+                    <org.nla.tarotdroid.lib.ui.controls.Selector
+                        android:id="@+id/galleryDead"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txtTitleDead" 
+                        android:spacing="2dp"/>
+                </RelativeLayout>
+                
+                <!-- Panel Distributeur -->
+                <RelativeLayout
+                    android:id="@+id/panelDealer"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="visible" 
+                    android:background="#0f0f0f">
+
+                    <TextView
+                        android:id="@+id/txtTitleDealer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dip"
+                        android:background="#0f0f0f"
+                        android:minWidth="130dip"
+                        android:padding="5dip"
+                        android:text="@string/lblDealer"
+                        style="@style/GameSubsectionTitleStyle"/>
+
+                    <org.nla.tarotdroid.lib.ui.controls.Selector
+                        android:id="@+id/galleryDealer"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txtTitleDealer"
+                        android:spacing="2dp"/>
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Section Paramètres principaux -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical" 
+            android:background="#0f0f0f" >
+
+			<!-- Titre Paramètres principaux -->
+            <TextView
+                android:id="@+id/txtTitleMainParameters"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#005555"
+                android:padding="5dip"
+                style="@style/GameSectionTitleStyle"
+                android:text="@string/lblMainParametersSection" />
+            
+            <!-- Panel Paramètres principaux -->
+            <LinearLayout
+                android:id="@+id/panelMainParameters"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible"
+                android:background="#0f0f0f"
+				android:paddingBottom="10dip">
+                
+                <!-- Panel Penalted -->
+<!--                 <RelativeLayout -->
+<!--                     android:id="@+id/panelPenalted" -->
+<!--                     android:layout_width="fill_parent" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:orientation="horizontal" -->
+<!--                     android:visibility="visible"  -->
+<!--                     android:background="#0f0f0f"> -->
+
+<!--                     <TextView -->
+<!--                         android:id="@+id/txtTitlePenalted" -->
+<!--                         android:layout_width="wrap_content" -->
+<!--                         android:layout_height="wrap_content" -->
+<!--                         android:layout_margin="2dip" -->
+<!--                         android:background="#0f0f0f" -->
+<!--                         android:minWidth="130dip" -->
+<!--                         android:padding="5dip" -->
+<!--                         style="@style/GameSubsectionTitleStyle" -->
+<!--                         android:text="@string/lblPenaltedPlayer"/> -->
+
+<!--                     <Selector -->
+<!--                         android:id="@+id/selectorPenalted" -->
+<!--                         android:layout_width="fill_parent" -->
+<!--                         android:layout_height="wrap_content" -->
+<!--                         android:layout_below="@id/txtTitlePenalted"  -->
+<!--                         android:spacing="2dp"/> -->
+<!--                 </RelativeLayout> -->
+                
+<!--                 Panel global penalty points -->
+<!--                 <RelativeLayout -->
+<!--                     android:id="@+id/panelGlobalPenaltyPoints" -->
+<!--                     android:layout_width="fill_parent" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:orientation="horizontal" -->
+<!--                     android:visibility="visible"  -->
+<!--                     android:background="#0f0f0f"> -->
+
+<!--                     <TextView -->
+<!--                         android:id="@+id/txtTitleGlobalPenaltyPoints" -->
+<!--                         android:layout_width="wrap_content" -->
+<!--                         android:layout_height="wrap_content" -->
+<!--                         android:layout_margin="2dip" -->
+<!--                         android:background="#0f0f0f" -->
+<!--                         android:minWidth="130dip" -->
+<!--                         android:padding="5dip" -->
+<!--                         style="@style/GameSubsectionTitleStyle" -->
+<!--                         android:text="@string/lblGlobalPenaltyPoints"/> -->
+                    
+<!-- 					<SeekBar -->
+<!--                         android:id="@+id/barGlobalPenaltyPoints" -->
+<!--                         android:layout_width="fill_parent" -->
+<!--                         android:layout_height="wrap_content" -->
+<!--                         android:layout_marginLeft="10dp" -->
+<!--                         android:layout_marginRight="10dp" -->
+<!--                         android:layout_below="@id/txtTitleGlobalPenaltyPoints" -->
+<!--                         android:progress="0" /> -->
+					
+<!--                     <LinearLayout -->
+<!--                         android:layout_width="fill_parent" -->
+<!--                         android:layout_height="wrap_content" -->
+<!--                         android:gravity="center" -->
+<!--                         android:orientation="horizontal"  -->
+<!--                         android:layout_below="@id/barGlobalPenaltyPoints"> -->
+
+<!--                         <Button -->
+<!--                             android:id="@+id/btnMinusGlobalPenaltyPoints" -->
+<!--                             android:layout_width="wrap_content" -->
+<!--                             android:layout_height="fill_parent" -->
+<!--                             android:minWidth="50dp" -->
+<!--                             android:state_enabled="false" -->
+<!--                             android:text="@string/lblMinus" /> -->
+
+<!--                         <EditText -->
+<!--                             android:id="@+id/txtGlobalPenaltyPoints" -->
+<!--                             android:layout_width="wrap_content" -->
+<!--                             android:layout_height="wrap_content" -->
+<!--                             android:gravity="center" -->
+<!--                             android:minWidth="50dp" -->
+<!--                             android:inputType="number" -->
+<!--                             android:clickable="false" -->
+<!--                             android:state_enabled="false" -->
+<!--                             android:focusable="false" -->
+<!--                             android:focusableInTouchMode="false" /> -->
+
+<!--                         <Button -->
+<!--                             android:id="@+id/btnPlusGlobalPenaltyPoints" -->
+<!--                             android:layout_width="wrap_content" -->
+<!--                             android:layout_height="fill_parent" -->
+<!--                             android:minWidth="50dp" -->
+<!--                             android:text="@string/lblPlus" /> -->
+<!--                     </LinearLayout> -->
+<!-- 				</RelativeLayout> -->
+				
+				<!-- Panel player penalty points -->
+                <RelativeLayout
+                    android:id="@+id/panelPlayerPenaltyPoints"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="visible" 
+                    android:background="#0f0f0f">
+
+                    <TextView
+                        android:id="@+id/txtTitlePlayerPenaltyPoints"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dip"
+                        android:background="#0f0f0f"
+                        android:minWidth="130dip"
+                        android:padding="5dip"
+                        style="@style/GameSubsectionTitleStyle"
+                        android:text="@string/lblPlayerPenaltyPoints"/>
+                    
+					<SeekBar
+                        android:id="@+id/barPlayerPenaltyPoints"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_below="@id/txtTitlePlayerPenaltyPoints"
+                        android:max="100"
+                        android:progress="0" />
+					
+                    <LinearLayout
+                        android:id="@+id/layoutGlobalPointButtons"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal" 
+                        android:layout_below="@id/barPlayerPenaltyPoints">
+                        
+                        <Button
+                            android:id="@+id/btnMinusGlobalPenaltyPoints"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:minWidth="50dp"
+                            android:state_enabled="false"
+                            android:text="@string/lblMinus" />
+
+                        <EditText
+                            android:id="@+id/txtGlobalPenaltyPoints"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:minWidth="50dp"
+                            android:inputType="number"
+                            android:clickable="false"
+                            android:state_enabled="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+                        <Button
+                            android:id="@+id/btnPlusGlobalPenaltyPoints"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:minWidth="50dp"
+                            android:text="@string/lblPlus" />
+                    </LinearLayout>
+					
+                    <LinearLayout
+                        android:id="@+id/layoutPlayerPointButtons"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal" 
+                        android:layout_below="@id/layoutGlobalPointButtons">
+
+						<TextView
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:text="Soit "/>
+                        
+<!--                         <Button
+                            android:id="@+id/btnMinusPlayerPenaltyPoints"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:minWidth="50dp"
+                            android:state_enabled="false"
+                            android:text="@string/lblMinus" />
+ -->
+                        <EditText
+                            android:id="@+id/txtPlayerPenaltyPoints"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:minWidth="50dp"
+                            android:inputType="number"
+                            android:clickable="false"
+                            android:state_enabled="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false" />
+
+						<TextView
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:text=" points par joueur"/>
+
+                        
+<!--                         <Button
+                            android:id="@+id/btnPlusPlayerPenaltyPoints"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:minWidth="50dp"
+                            android:text="@string/lblPlus" /> -->
+                    </LinearLayout>
+                    
+				</RelativeLayout>
+                
+            </LinearLayout>
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/C:/Devs/TarotDroid/tarotDroidUiLib/src/main/res/layout/penalty_game_creation.xml --><!-- From: file:/C:/Devs/TarotDroid/tarotDroidUiFull/build/intermediates/exploded-aar/TarotDroid/tarotDroidUiLib/unspecified/res/layout/penalty_game_creation.xml -->

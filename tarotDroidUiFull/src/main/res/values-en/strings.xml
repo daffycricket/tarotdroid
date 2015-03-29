@@ -1,0 +1,6 @@
+<resources>
+	<string name="crash_toast_text">Ooooops, TarotDroid crashed, sorry about that :/</string>
+	<string name="crash_dialog_title">TarotDroid crashed</string>
+	<string name="crash_dialog_text">An unexpected error got TarotDroid to crash. If you press OK you can send us a bug report that can help us fix it.</string>  
+	<string name="crash_dialog_ok_toast">Thanks !</string>
+</resources>

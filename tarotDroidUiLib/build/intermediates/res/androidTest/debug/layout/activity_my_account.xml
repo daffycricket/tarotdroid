@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/img_excuse"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_marginTop="15dp"
+        android:id="@+id/stubPlayerImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp" 
+        android:layout_gravity="center"
+        android:src="@drawable/icon_android"/>
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="NAME"
+        android:minWidth="250dp" />
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="TODO: Twitter"/>
+
+	    <Button
+	        android:id="@+id/btnAssociateWithTwitter"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginTop="15dp"
+	        android:minWidth="200dp"
+	        android:text="TODO: Connect with Twitter" 
+	        android:onClick="onClickOnBtnConnectWithTwitter"/>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="TODO: Facebook"/>
+
+	    <Button
+	        android:id="@+id/btnAssociateWithFacebook"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginTop="15dp"
+	        android:minWidth="200dp"
+	        android:text="TODO: Connect with Facebook" 
+	        android:onClick="onClickOnBtnConnectWithFacebook"/>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Devs/TarotDroid/tarotDroidUiLib/src/main/res/layout/activity_my_account.xml --><!-- From: file:/C:/Devs/TarotDroid/tarotDroidUiLib/build/intermediates/bundles/debug/res/layout/activity_my_account.xml -->

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragment
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="org.nla.tarotdroid.ui.v2.GameReadActivityFragment"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/menu_fragment">
+</fragment>
+<!-- From: file:/C:/Devs/TarotDroid/tarotDroidUiLib/src/main/res/layout/game_read_fragment.xml --><!-- From: file:/C:/Devs/TarotDroid/tarotDroidUiLite/build/intermediates/exploded-aar/TarotDroid/tarotDroidUiLib/unspecified/res/layout/game_read_fragment.xml -->

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/img_excuse"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_marginTop="15dp"
+        android:id="@+id/stubPlayerImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp" 
+        android:layout_gravity="center"
+        android:src="@drawable/icon_android"/>
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/edtPlayerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="NAME"
+        android:minWidth="200dp" />
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/edtPlayerFullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="FULLNAME"
+        android:minWidth="200dp" />
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <CheckBox 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Associate to twitter account"/>
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        </LinearLayout>
+            
+        
+        
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Devs/TarotDroid/tarotDroidUiLib/src/main/res/layout/activity_player_edit.xml -->

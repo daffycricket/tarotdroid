@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/scrollView1" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+	<LinearLayout
+	    android:id="@+id/mainLayout"  
+	    android:orientation="vertical" 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="fill_parent">
+
+	    
+        <!-- Section Joueurs obligatoires -->
+        <LinearLayout
+            android:id="@+id/layoutCompulsory"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical" 
+            android:background="#0f0f0f" >
+            <TextView
+                android:id="@+id/txtTitleDeadAndDealer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#005555"
+                android:padding="5dip"
+                style="@style/GameSectionTitleStyle"
+                android:text="@string/lblCompulsoryPlayersSection" />
+		</LinearLayout>
+        	    
+		<!-- Player 1 -->
+	    <LinearLayout 
+	        android:baselineAligned="false"
+	        android:id="@+id/panelPlayer1"  
+	        android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+	        
+	        <LinearLayout 
+	            android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical"
+	            android:paddingLeft="2dp"
+	            android:paddingRight="2dp"
+	            android:paddingTop="2dp"
+	            android:paddingBottom="2dp"
+	            android:layout_weight="0.2">
+	            <TextView 
+	                android:text="@string/lblPlayer1Name" 
+	                android:layout_height="wrap_content" 
+	                android:layout_width="fill_parent" 
+	                style="@style/LabelTextStyle"
+	                android:paddingLeft="2dp"/>
+	            <org.nla.tarotdroid.lib.ui.controls.PlayerSelectorAutoCompleteTextView
+	                android:id="@+id/namePlayer1" 
+	                android:layout_height="wrap_content" 
+	                android:layout_width="fill_parent"
+	                android:maxLength="9" 
+	                android:completionThreshold="1" 
+	                android:hint="@string/lblPlayer1NameHint"/>
+	        </LinearLayout>
+		</LinearLayout>
+		
+		<!-- Player 2 -->
+	    <LinearLayout  
+	        android:baselineAligned="false"
+	        android:id="@+id/panelPlayer2"  
+	        android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+	        
+	        <LinearLayout 
+	            android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical"
+	            android:paddingLeft="2dp"
+	            android:paddingRight="2dp"
+	            android:paddingTop="2dp"
+	            android:paddingBottom="2dp"
+	            android:layout_weight="0.2">
+	            <TextView 
+	                android:text="@string/lblPlayer2Name" 
+	                android:layout_height="wrap_content" 
+	                android:layout_width="fill_parent" 
+	                style="@style/LabelTextStyle"
+	                android:paddingLeft="2dp"/>
+	            <org.nla.tarotdroid.lib.ui.controls.PlayerSelectorAutoCompleteTextView
+	                android:id="@+id/namePlayer2" 
+	                android:layout_height="wrap_content" 
+	                android:layout_width="fill_parent"
+	                android:maxLength="9" 
+	                android:completionThreshold="1"
+	                android:hint="@string/lblPlayer2NameHint"/>
+	        </LinearLayout>
+		</LinearLayout>
+		
+		<!-- Player 3 -->
+	    <LinearLayout  
+	        android:baselineAligned="false"
+	        android:id="@+id/panelPlayer3"  
+	        android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+	        
+	        <LinearLayout 
+	            android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical"
+	            android:layout_weight="0.2"
+	            android:paddingLeft="2dp"
+	            android:paddingRight="2dp"
+	            android:paddingTop="2dp"
+	            android:paddingBottom="2dp">
+	            <TextView 
+	                android:text="@string/lblPlayer3Name" 
+	                android:layout_height="wrap_content" 
+	                android:layout_width="fill_parent" 
+	                style="@style/LabelTextStyle"
+	                android:paddingLeft="2dp"/>
+	            <org.nla.tarotdroid.lib.ui.controls.PlayerSelectorAutoCompleteTextView
+	                android:id="@+id/namePlayer3" 
+	                android:layout_height="wrap_content" 
+	                android:layout_width="fill_parent"
+	                android:maxLength="9" 
+	                android:completionThreshold="1"
+	                android:hint="@string/lblPlayer3NameHint"/>
+	        </LinearLayout>
+		</LinearLayout>
+		
+        <!-- Section Joueurs facultatifs 1 -->
+        <LinearLayout
+            android:id="@+id/layoutFacultatif1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical" 
+            android:background="#0f0f0f" >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#005555"
+                android:padding="5dip"
+                style="@style/GameSectionTitleStyle"
+                android:text="@string/lblOptionalPlayerSection" />
+		</LinearLayout>
+
+		
+		<!-- Player 4 -->
+	    <LinearLayout  
+	        android:baselineAligned="false"
+	        android:id="@+id/panelPlayer4"  
+	        android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+	        
+	        <LinearLayout 
+	            android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical"
+	            android:layout_weight="0.2"
+	            android:paddingLeft="2dp"
+	            android:paddingRight="2dp"
+	            android:paddingTop="2dp"
+	            android:paddingBottom="2dp">
+	            <TextView 
+	                android:text="@string/lblPlayer4Name" 
+	                android:layout_height="wrap_content" 
+	                android:layout_width="fill_parent" 
+	                style="@style/LabelTextStyle"
+	                android:paddingLeft="2dp"/>
+	            <org.nla.tarotdroid.lib.ui.controls.PlayerSelectorAutoCompleteTextView
+	                android:id="@+id/namePlayer4" 
+	                android:layout_height="wrap_content" 
+	                android:layout_width="fill_parent"
+	                android:maxLength="9" 
+	                android:completionThreshold="1"
+	                android:hint="@string/lblPlayer4NameHint"/>
+	        </LinearLayout>
+		</LinearLayout>
+		
+        <!-- Section Joueurs facultatifs 2 -->
+        <LinearLayout
+            android:id="@+id/layoutFacultatif2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical" 
+            android:background="#0f0f0f" >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#005555"
+                android:padding="5dip"
+                style="@style/GameSectionTitleStyle"
+                android:text="@string/lblOptionalPlayerSection" />
+		</LinearLayout>
+
+		<!-- Player 5 -->
+	    <LinearLayout  
+	        android:baselineAligned="false"
+	        android:id="@+id/panelPlayer5"  
+	        android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+	        
+	        <LinearLayout 
+	            android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical"
+	            android:layout_weight="0.2"
+	            android:paddingLeft="2dp"
+	            android:paddingRight="2dp"
+	            android:paddingTop="2dp"
+	            android:paddingBottom="2dp">
+	            <TextView 
+	                android:text="@string/lblPlayer5Name" 
+	                android:layout_height="wrap_content" 
+	                android:layout_width="fill_parent" 
+	                style="@style/LabelTextStyle"
+	                android:paddingLeft="2dp"/>
+	            <org.nla.tarotdroid.lib.ui.controls.PlayerSelectorAutoCompleteTextView
+	                android:id="@+id/namePlayer5" 
+	                android:layout_height="wrap_content" 
+	                android:layout_width="fill_parent"
+	                android:maxLength="9" 
+	                android:completionThreshold="1"
+	                android:hint="@string/lblPlayer5NameHint"/>
+	        </LinearLayout>
+		</LinearLayout>
+		
+        <!-- Section Joueurs facultatifs 3 -->
+        <LinearLayout
+            android:id="@+id/layoutFacultatif3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical" 
+            android:background="#0f0f0f" >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#005555"
+                android:padding="5dip"
+                style="@style/GameSectionTitleStyle"
+                android:text="@string/lblOptionalPlayerSection" />
+		</LinearLayout>
+		
+		<!-- Player 6 -->
+	    <LinearLayout  
+	        android:baselineAligned="false"
+	        android:id="@+id/panelPlayer6"  
+	        android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+	        
+	        <LinearLayout 
+	            android:layout_width="0dip"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical"
+	            android:layout_weight="0.2"
+	            android:paddingLeft="2dp"
+	            android:paddingRight="2dp"
+	            android:paddingTop="2dp"
+	            android:paddingBottom="2dp">
+	            <TextView 
+	                android:text="@string/lblPlayer6Name" 
+	                android:layout_height="wrap_content" 
+	                android:layout_width="fill_parent" 
+	                style="@style/LabelTextStyle"
+	                android:paddingLeft="2dp"/>
+	            <org.nla.tarotdroid.lib.ui.controls.PlayerSelectorAutoCompleteTextView
+	                android:id="@+id/namePlayer6" 
+	                android:layout_height="wrap_content" 
+	                android:layout_width="fill_parent"
+	                android:maxLength="9" 
+	                android:completionThreshold="1"
+	                android:hint="@string/lblPlayer6NameHint"/>
+	        </LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView><!-- From: file:/C:/Devs/TarotDroid/tarotDroidUiLib/src/main/res/layout/gameset_creation.xml --><!-- From: file:/C:/Devs/TarotDroid/tarotDroidUiFull/build/intermediates/exploded-aar/TarotDroid/tarotDroidUiLib/unspecified/res/layout/gameset_creation.xml -->

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <!-- Section Mort et Distributeur -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical" 
+            android:background="#0f0f0f" >
+
+			<!-- Titre Mort et Distributeur -->
+            <TextView
+                android:id="@+id/txtTitleDeadAndDealer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#005555"
+                android:padding="5dip"
+                style="@style/GameSectionTitleStyle"
+                android:text="@string/lblDealerSection" />
+                
+            <!-- Panel Mort et Distributeur -->
+            <LinearLayout
+                android:id="@+id/panelDeadAndDealer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible" 
+                android:background="#0f0f0f"
+				android:paddingBottom="10dip">
+                
+                <!-- Panel Dead -->
+                <RelativeLayout
+                    android:id="@+id/panelDead"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="visible" 
+                    android:background="#0f0f0f">
+
+                    <TextView
+                        android:id="@+id/txtTitleDead"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dip"
+                        android:background="#0f0f0f"
+                        android:minWidth="130dip"
+                        android:padding="5dip"
+                        style="@style/GameSubsectionTitleStyle"
+                        android:text="@string/lblDeadPlayer" />
+
+                    <org.nla.tarotdroid.lib.ui.controls.Selector
+                        android:id="@+id/galleryDead"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txtTitleDead" 
+                        android:spacing="2dp"/>
+                </RelativeLayout>
+                
+                <!-- Panel Distributeur -->
+                <RelativeLayout
+                    android:id="@+id/panelDealer"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="visible" 
+                    android:background="#0f0f0f">
+
+                    <TextView
+                        android:id="@+id/txtTitleDealer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dip"
+                        android:background="#0f0f0f"
+                        android:minWidth="130dip"
+                        android:padding="5dip"
+                        style="@style/GameSubsectionTitleStyle"
+                        android:text="@string/lblDealer" />
+
+                    <org.nla.tarotdroid.lib.ui.controls.Selector
+                        android:id="@+id/galleryDealer"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txtTitleDealer"
+                        android:spacing="2dp"/>
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Section Paramètres principaux -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical" 
+            android:background="#0f0f0f" >
+
+			<!-- Titre Paramètres principaux -->
+            <TextView
+                android:id="@+id/txtTitleMainParameters"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#005555"
+                android:padding="5dip"
+                style="@style/GameSectionTitleStyle"
+                android:text="@string/lblMainParametersSection" />
+            
+            <!-- Panel Paramètres principaux -->
+            <LinearLayout
+                android:id="@+id/panelMainParameters"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible"
+                android:background="#0f0f0f"
+				android:paddingBottom="10dip">
+                
+                <!-- Panel first -->
+                <RelativeLayout
+                    android:id="@+id/panelFirst"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="visible" 
+                    android:background="#0f0f0f">
+
+                    <TextView
+                        android:id="@+id/txtTitleFirst"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dip"
+                        android:background="#0f0f0f"
+                        android:minWidth="130dip"
+                        android:padding="5dip"
+                        style="@style/GameSubsectionTitleStyle"
+                        android:text="@string/first"/>
+
+                    <org.nla.tarotdroid.lib.ui.controls.Selector
+                        android:id="@+id/galleryFirst"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txtTitleFirst" 
+                        android:spacing="2dp"/>
+                </RelativeLayout>
+
+                <!-- Panel second -->
+                <RelativeLayout
+                    android:id="@+id/panelSecond"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="visible" 
+                    android:background="#0f0f0f">
+
+                    <TextView
+                        android:id="@+id/txtTitleSecond"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dip"
+                        android:background="#0f0f0f"
+                        android:minWidth="130dip"
+                        android:padding="5dip"
+                        style="@style/GameSubsectionTitleStyle"
+                        android:text="@string/second"/>
+
+                    <org.nla.tarotdroid.lib.ui.controls.Selector
+                        android:id="@+id/gallerySecond"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txtTitleSecond" 
+                        android:spacing="2dp"/>
+                </RelativeLayout>
+                
+                <!-- Panel third -->
+                <RelativeLayout
+                    android:id="@+id/panelThird"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="visible" 
+                    android:background="#0f0f0f">
+
+                    <TextView
+                        android:id="@+id/txtTitleThird"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dip"
+                        android:background="#0f0f0f"
+                        android:minWidth="130dip"
+                        android:padding="5dip"
+                        style="@style/GameSubsectionTitleStyle"
+                        android:text="@string/third"/>
+
+                    <org.nla.tarotdroid.lib.ui.controls.Selector
+                        android:id="@+id/galleryThird"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txtTitleThird" 
+                        android:spacing="2dp"/>
+                </RelativeLayout>
+                
+                <!-- Panel Fourth -->
+                <RelativeLayout
+                    android:id="@+id/panelFourth"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone" 
+                    android:background="#0f0f0f">
+
+                    <TextView
+                        android:id="@+id/txtTitleFourth"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dip"
+                        android:background="#0f0f0f"
+                        android:minWidth="130dip"
+                        android:padding="5dip"
+                        style="@style/GameSubsectionTitleStyle"
+                        android:text="@string/fourth"/>
+
+                    <org.nla.tarotdroid.lib.ui.controls.Selector
+                        android:id="@+id/galleryFourth"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txtTitleFourth" 
+                        android:spacing="2dp"/>
+                </RelativeLayout>
+                
+                <!-- Panel Fifth -->
+                <RelativeLayout
+                    android:id="@+id/panelFifth"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:visibility="gone" 
+                    android:background="#0f0f0f">
+
+                    <TextView
+                        android:id="@+id/txtTitleFifth"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dip"
+                        android:background="#0f0f0f"
+                        android:minWidth="130dip"
+                        android:padding="5dip"
+                        style="@style/GameSubsectionTitleStyle"
+                        android:text="@string/fifth"/>
+
+                    <org.nla.tarotdroid.lib.ui.controls.Selector
+                        android:id="@+id/galleryFifth"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txtTitleFifth" 
+                        android:spacing="2dp"/>
+                </RelativeLayout>
+                
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

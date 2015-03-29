@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base game read activity ids -->
+	<item type="id" name="remove_game_item" />
+	<item type="id" name="previous_game_item" />
+	<item type="id" name="next_game_item" />
+
+	<!-- Tab game set activity ids -->
+	<item type="id" name="gameset_add_game_item" />
+	<item type="id" name="gameset_settings_item" />
+	<item type="id" name="gameset_help_item" />
+	<item type="id" name="gameset_stats_item" />
+	
+    <!-- New game set activity ids -->
+	<item type="id" name="new_tarot3_gameset_item" />
+	<item type="id" name="new_tarot4_gameset_item" />
+	<item type="id" name="new_tarot5_gameset_item" />
+	
+    <!-- Main dashboard activity ids -->
+	<item type="id" name="new_gameset_item" />
+	<item type="id" name="history_item" />
+	<item type="id" name="player_statistics_item" />
+	<item type="id" name="google_play_item" />
+	<item type="id" name="community_item" />
+	<item type="id" name="cloud_item" />
+	<item type="id" name="facebook_item" />
+	<item type="id" name="gmail_item" />
+	<item type="id" name="full_version_item" />
+	<item type="id" name="main_settings_id" />
+	<item type="id" name="main_about_item" />
+	<item type="id" name="main_populate_item" />
+	
+    <!-- Community activity ids -->
+	<item type="id" name="balloon_inner_layout" />
+	<item type="id" name="balloon_close" />
+	
+	<!-- Cloud dashboard activity ids -->
+	<item type="id" name="stored_gamesets_item" />
+	<item type="id" name="my_account_item" />
+
+	<!-- Player statistics activity ids -->
+	<item type="id" name="player_item" />
+	<item type="id" name="played_gamesets_item" />
+	<item type="id" name="played_games_item" />
+	<item type="id" name="leader_item" />
+	<item type="id" name="called_item" />
+	<item type="id" name="bet_item" />
+	<item type="id" name="pick_picture_context_item" />
+	<item type="id" name="select_picture_context_menu" />
+	
+	<item type="id" name="select_picture_from_gallery_action_code" />
+	<item type="id" name="select_picture_from_contact_action_code" />
+	<item type="id" name="select_picture_from_camera_action_code" />
+	<item type="id" name="select_picture_from_facebook_action_code" />
+	
+</resources>

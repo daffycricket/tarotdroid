@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:title="Preferences">
+    <PreferenceCategory android:title="@string/lblComputationPrefs">
+        <org.nla.tarotdroid.lib.ui.controls.EditIntegerPreference android:title="@string/lblPrisePoints" android:key="prisePoints" android:numeric="integer" android:defaultValue="25"/>
+        <org.nla.tarotdroid.lib.ui.controls.EditIntegerPreference android:title="@string/lblPriseRate" android:key="priseRate" android:numeric="integer" android:defaultValue="1"/>
+        <org.nla.tarotdroid.lib.ui.controls.EditIntegerPreference android:title="@string/lblGardePoints" android:key="gardePoints" android:numeric="integer" android:defaultValue="50"/>
+        <org.nla.tarotdroid.lib.ui.controls.EditIntegerPreference android:title="@string/lblGardeRate" android:key="gardeRate" android:numeric="integer" android:defaultValue="2"/>
+        <org.nla.tarotdroid.lib.ui.controls.EditIntegerPreference android:title="@string/lblGardeSansPoints" android:key="gardeSansPoints" android:numeric="integer" android:defaultValue="100"/>
+        <org.nla.tarotdroid.lib.ui.controls.EditIntegerPreference android:title="@string/lblGardeSansRate" android:key="gardeSansRate" android:numeric="integer" android:defaultValue="4"/>
+        <org.nla.tarotdroid.lib.ui.controls.EditIntegerPreference android:title="@string/lblGardeContrePoints" android:key="gardeContrePoints" android:numeric="integer" android:defaultValue="150"/>
+        <org.nla.tarotdroid.lib.ui.controls.EditIntegerPreference android:title="@string/lblGardeContreRate" android:key="gardeContreRate" android:numeric="integer" android:defaultValue="6"/>
+        <org.nla.tarotdroid.lib.ui.controls.EditIntegerPreference android:title="@string/lblMiseryPoints" android:key="miseryPoints" android:numeric="integer" android:defaultValue="10"/>
+        <org.nla.tarotdroid.lib.ui.controls.EditIntegerPreference android:title="@string/lblPoigneePoints" android:key="poigneePoints" android:numeric="integer" android:defaultValue="20"/>
+        <org.nla.tarotdroid.lib.ui.controls.EditIntegerPreference android:title="@string/lblDoublePoigneePoints" android:key="doublePoigneePoints" android:numeric="integer" android:defaultValue="30"/>
+        <org.nla.tarotdroid.lib.ui.controls.EditIntegerPreference android:title="@string/lblTriplePoigneePoints" android:key="triplePoigneePoints" android:numeric="integer" android:defaultValue="40"/>
+        <org.nla.tarotdroid.lib.ui.controls.EditIntegerPreference android:title="@string/lblKidAtTheEndPoints" android:key="kidAtTheEndPoints" android:numeric="integer" android:defaultValue="10"/>
+        <org.nla.tarotdroid.lib.ui.controls.EditIntegerPreference android:title="@string/lblAnnouncedAndSucceededChelemPoints" android:key="announcedAndSucceededChelemPoints" android:numeric="integer" android:defaultValue="400"/>
+        <org.nla.tarotdroid.lib.ui.controls.EditIntegerPreference android:title="@string/lblAnnouncedAndFailedChelemPoints" android:key="announcedAndFailedChelemPoints" android:numeric="signed" android:defaultValue="-200"/>
+        <org.nla.tarotdroid.lib.ui.controls.EditIntegerPreference android:title="@string/lblNotAnnouncedButSucceededChelemPoints" android:key="notAnnouncedButSucceededChelemPoints" android:numeric="integer" android:defaultValue="200"/>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/lblGamePrefs">
+    	<CheckBoxPreference android:title="@string/lblIsPriseAuthorized" android:key="isPriseAuthorized" android:defaultValue="true"/>
+    	<CheckBoxPreference android:title="@string/lblIsPetiteAuthorized" android:key="isPetiteAuthorized" android:defaultValue="true" android:dependency="isPriseAuthorized"/>
+        <org.nla.tarotdroid.lib.ui.controls.EditIntegerPreference android:title="@string/lblPetitePoints" android:key="petitePoints" android:numeric="integer" android:defaultValue="10" android:dependency="isPetiteAuthorized"/>
+        <org.nla.tarotdroid.lib.ui.controls.EditIntegerPreference android:title="@string/lblPetiteRate" android:key="petiteRate" android:numeric="integer" android:defaultValue="1" android:dependency="isPetiteAuthorized"/>
+    	<CheckBoxPreference android:title="@string/lblIsBelgianAuthorized" android:key="areBelgianGamesAllowed" android:defaultValue="false"/>
+    	<org.nla.tarotdroid.lib.ui.controls.EditIntegerPreference android:title="@string/lblBelgianStepPoints" android:key="belgianStepPoints" android:defaultValue="100" android:dependency="areBelgianGamesAllowed"/>
+    	<CheckBoxPreference android:title="@string/lblIsPenaltyAuthorized" android:key="arePenaltyGamesAllowed" android:defaultValue="false"/>
+    	<CheckBoxPreference android:title="@string/lblIsPassAuthorized" android:key="arePassedGamesAllowed" android:defaultValue="true"/>
+    	<CheckBoxPreference android:title="@string/lblIsMiseryAuthorized" android:key="isMiseryAuthorized" android:defaultValue="false"/>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/lblViewPrefs">
+        <CheckBoxPreference android:title="@string/lblGameOrderDisplay" android:key="displayGamesInReverseOrder" android:defaultValue="true"/>
+        <CheckBoxPreference android:title="@string/lblGameScoreDisplay" android:key="displayGlobalScoresForEachGame" android:defaultValue="false"/>
+        <CheckBoxPreference android:title="@string/lblKeepScreenOn" android:key="keepScreenOn" android:defaultValue="true"/>
+    </PreferenceCategory>
+    
+    <!-- TODO: Comment before publishing -->
+    <PreferenceCategory android:title="@string/lblDevPrefs">
+    	<org.nla.tarotdroid.lib.ui.controls.EditIntegerPreference android:title="Nombre de parties" android:key="gameSetCount" android:numeric="integer" android:defaultValue="5"/>
+    	<org.nla.tarotdroid.lib.ui.controls.EditIntegerPreference android:title="Nombre de donnes max" android:key="maxGameCount" android:numeric="integer" android:defaultValue="15"/>    	
+    </PreferenceCategory>
+</PreferenceScreen>
+<!-- From: file:/C:/Devs/TarotDroid.Ui.Lite/tarotDroidUiLib/src/main/res/layout/main_dashboard_preferences_debug.xml -->

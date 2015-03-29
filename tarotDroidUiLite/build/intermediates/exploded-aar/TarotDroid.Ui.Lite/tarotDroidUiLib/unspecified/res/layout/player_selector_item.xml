@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="10">
+ 
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:layout_weight="8">
+        
+        <TextView 
+            android:id="@+id/txtPlayerIndex"
+            android:text="@string/lblPlayer1Name" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:paddingLeft="2dp"/>
+        <AutoCompleteTextView 
+            android:id="@+id/namePlayer1" 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:maxLength="9" 
+            android:completionThreshold="1" />
+    </LinearLayout>
+    
+    <com.facebook.widget.ProfilePictureView
+        android:id="@+id/profilePicture"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        facebook:preset_size="small"
+        android:layout_weight="2"/>
+
+</LinearLayout><!-- From: file:/C:/Devs/TarotDroid.Ui.Lite/tarotDroidUiLib/src/main/res/layout/player_selector_item.xml -->

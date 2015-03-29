@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="urlFaceBook">http://www.facebook.com/tarotdroid</string>
+    <string name="urlGooglePlayLiteApp">https://play.google.com/store/apps/details?id=org.nla.tarotdroid</string>
+    <string name="urlGooglePlayFullApp">https://play.google.com/store/apps/details?id=org.nla.tarotdroid.ui.full</string>
+    <string name="dnsTarotDroidCloud">tarotdroid.appspot.com</string>
+    <string name="dnsTarotDroidDevCloud">tarotdroidtestapp.appspot.com</string>
+    <string name="urlTarotDroidFacebookCloud">http://tarotdroid.appspot.com/showGameSet.html</string>
+    <string name="urlTarotDroidFacebookDevCloud">http://tarotdroidtestapp.appspot.com/showGameSet.html</string>
+    <string name="urlTarotDroidFacebookApp">https://apps.facebook.com/org_nla_tarotdroid</string>
+    <string name="urlTarotDroidFacebookDevApp">https://apps.facebook.com/org_nla_tarotdroidtt</string>
+    <string name="urlEmail">tarotdroid@gmail.com</string>
+    <!-- string name=""></string-->
+</resources>

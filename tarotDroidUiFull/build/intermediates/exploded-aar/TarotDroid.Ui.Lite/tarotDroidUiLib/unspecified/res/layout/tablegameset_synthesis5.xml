@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:weightSum="1"> 
+		
+	<!-- Labels  -->
+	<LinearLayout
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:orientation="horizontal"
+		android:layout_weight="0.85"
+		android:background="@color/gray"
+		android:id="@+id/rowStatsLabels">
+		<TextView style="@style/ScoreTextStyle" android:text=""/>
+		<TextView style="@style/ScoreTextStyle" android:text="@string/lblScore"/>
+		<TextView style="@style/ScoreTextStyle" android:text="@string/lblLeadingGames"/>
+		<TextView style="@style/ScoreTextStyle" android:text="@string/lblSuccessfulLeadingGames"/>
+		<TextView style="@style/ScoreTextStyle" android:text="@string/lblCalledGames"/>
+		<TextView style="@style/ScoreTextStyle" android:text="@string/lblMinScore"/>
+		<TextView style="@style/ScoreTextStyle" android:text="@string/lblMaxScore"/>
+	</LinearLayout>
+
+	<!-- Scores --> 		
+	<LinearLayout
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+		android:id="@+id/statsLayout"
+		android:layout_weight="0.15"
+		android:weightSum="6"> 
+ 
+		<LinearLayout
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			android:orientation="horizontal"
+			android:weightSum="7"
+			android:layout_weight="1"
+			android:layout_marginTop="5dp"
+			android:id="@+id/rowStatsPlayer1">
+			<TextView android:id="@+id/statPlayerName" style="@style/ScoreTextStyle" android:text="Joueur"/>
+			<TextView android:id="@+id/statScore" style="@style/ScoreTextStyle" android:text="Score"/>
+			<TextView android:id="@+id/statLeadingGamesCount" style="@style/ScoreTextStyle" android:text="Prises"/>
+			<TextView android:id="@+id/statSuccessfulGamesCount" style="@style/ScoreTextStyle" android:text="Succés"/>
+			<TextView android:id="@+id/statCalledGamesCount" style="@style/ScoreTextStyle" android:text="Appels"/>
+			<TextView android:id="@+id/statMinScore" style="@style/ScoreTextStyle" android:text="Min"/>
+			<TextView android:id="@+id/statMaxScore" style="@style/ScoreTextStyle" android:text="Max"/>
+		</LinearLayout>
+		
+		<ImageView
+		    android:id="@+id/imgSeparator1"
+		    android:src="@android:drawable/divider_horizontal_bright"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:scaleType="fitXY"
+		    android:paddingLeft="5dp"
+		    android:paddingRight="5dp"
+		    android:paddingBottom="2dp"
+		    android:paddingTop="2dp" />
+		
+		<LinearLayout
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			android:orientation="horizontal"
+			android:weightSum="7"
+			android:layout_weight="1"
+			android:layout_marginTop="5dp"
+			android:id="@+id/rowStatsPlayer2">
+			<TextView android:id="@+id/statPlayerName" style="@style/ScoreTextStyle" android:text="Joueur"/>
+			<TextView android:id="@+id/statScore" style="@style/ScoreTextStyle" android:text="Score"/>
+			<TextView android:id="@+id/statLeadingGamesCount" style="@style/ScoreTextStyle" android:text="Prises"/>
+			<TextView android:id="@+id/statSuccessfulGamesCount" style="@style/ScoreTextStyle" android:text="Succés"/>
+			<TextView android:id="@+id/statCalledGamesCount" style="@style/ScoreTextStyle" android:text="Appels"/>
+			<TextView android:id="@+id/statMinScore" style="@style/ScoreTextStyle" android:text="Min"/>
+			<TextView android:id="@+id/statMaxScore" style="@style/ScoreTextStyle" android:text="Max"/>
+		</LinearLayout>
+
+	    <ImageView
+	        android:id="@+id/imgSeparator2"
+		    android:src="@android:drawable/divider_horizontal_bright"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:scaleType="fitXY"
+		    android:paddingLeft="5dp"
+		    android:paddingRight="5dp"
+		    android:paddingBottom="2dp"
+		    android:paddingTop="2dp" />
+	    
+		<LinearLayout
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			android:orientation="horizontal"
+			android:weightSum="7"
+			android:layout_weight="1"
+			android:layout_marginTop="5dp"
+			android:id="@+id/rowStatsPlayer3">
+			<TextView android:id="@+id/statPlayerName" style="@style/ScoreTextStyle" android:text="Joueur"/>
+			<TextView android:id="@+id/statScore" style="@style/ScoreTextStyle" android:text="Score"/>
+			<TextView android:id="@+id/statLeadingGamesCount" style="@style/ScoreTextStyle" android:text="Prises"/>
+			<TextView android:id="@+id/statSuccessfulGamesCount" style="@style/ScoreTextStyle" android:text="Succés"/>
+			<TextView android:id="@+id/statCalledGamesCount" style="@style/ScoreTextStyle" android:text="Appels"/>
+			<TextView android:id="@+id/statMinScore" style="@style/ScoreTextStyle" android:text="Min"/>
+			<TextView android:id="@+id/statMaxScore" style="@style/ScoreTextStyle" android:text="Max"/>
+		</LinearLayout>
+
+	    <ImageView
+	        android:id="@+id/imgSeparator3"
+		    android:src="@android:drawable/divider_horizontal_bright"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:scaleType="fitXY"
+		    android:paddingLeft="5dp"
+		    android:paddingRight="5dp"
+		    android:paddingBottom="2dp"
+		    android:paddingTop="2dp" />
+	    
+		<LinearLayout
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			android:orientation="horizontal"
+			android:weightSum="7"
+			android:layout_weight="1"
+			android:layout_marginTop="5dp"
+			android:id="@+id/rowStatsPlayer4">
+			<TextView android:id="@+id/statPlayerName" style="@style/ScoreTextStyle" android:text="Joueur"/>
+			<TextView android:id="@+id/statScore" style="@style/ScoreTextStyle" android:text="Score"/>
+			<TextView android:id="@+id/statLeadingGamesCount" style="@style/ScoreTextStyle" android:text="Prises"/>
+			<TextView android:id="@+id/statSuccessfulGamesCount" style="@style/ScoreTextStyle" android:text="Succés"/>
+			<TextView android:id="@+id/statCalledGamesCount" style="@style/ScoreTextStyle" android:text="Appels"/>
+			<TextView android:id="@+id/statMinScore" style="@style/ScoreTextStyle" android:text="Min"/>
+			<TextView android:id="@+id/statMaxScore" style="@style/ScoreTextStyle" android:text="Max"/>
+		</LinearLayout>
+
+	    <ImageView
+	        android:id="@+id/imgSeparator4"
+		    android:src="@android:drawable/divider_horizontal_bright"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:scaleType="fitXY"
+		    android:paddingLeft="5dp"
+		    android:paddingRight="5dp"
+		    android:paddingBottom="2dp"
+		    android:paddingTop="2dp" />
+	    
+		<LinearLayout
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			android:orientation="horizontal"
+			android:weightSum="7"
+			android:layout_weight="1"
+			android:layout_marginTop="5dp"
+			android:id="@+id/rowStatsPlayer5">
+			<TextView android:id="@+id/statPlayerName" style="@style/ScoreTextStyle" android:text="Joueur"/>
+			<TextView android:id="@+id/statScore" style="@style/ScoreTextStyle" android:text="Score"/>
+			<TextView android:id="@+id/statLeadingGamesCount" style="@style/ScoreTextStyle" android:text="Prises"/>
+			<TextView android:id="@+id/statSuccessfulGamesCount" style="@style/ScoreTextStyle" android:text="Succés"/>
+			<TextView android:id="@+id/statCalledGamesCount" style="@style/ScoreTextStyle" android:text="Appels"/>
+			<TextView android:id="@+id/statMinScore" style="@style/ScoreTextStyle" android:text="Min"/>
+			<TextView android:id="@+id/statMaxScore" style="@style/ScoreTextStyle" android:text="Max"/>
+		</LinearLayout>
+		
+	    <ImageView
+	        android:id="@+id/imgSeparator5"
+		    android:src="@android:drawable/divider_horizontal_bright"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:scaleType="fitXY"
+		    android:paddingLeft="5dp"
+		    android:paddingRight="5dp"
+		    android:paddingBottom="2dp"
+		    android:paddingTop="2dp" />
+		
+		<LinearLayout
+			android:layout_width="fill_parent" 
+			android:layout_height="fill_parent"
+			android:orientation="horizontal"
+			android:weightSum="7"
+			android:layout_weight="1"
+			android:layout_marginTop="5dp"
+			android:id="@+id/rowStatsPlayer6">
+			<TextView android:id="@+id/statPlayerName" style="@style/ScoreTextStyle" android:text="Joueur"/>
+			<TextView android:id="@+id/statScore" style="@style/ScoreTextStyle" android:text="Score"/>
+			<TextView android:id="@+id/statLeadingGamesCount" style="@style/ScoreTextStyle" android:text="Prises"/>
+			<TextView android:id="@+id/statSuccessfulGamesCount" style="@style/ScoreTextStyle" android:text="Succés"/>
+			<TextView android:id="@+id/statCalledGamesCount" style="@style/ScoreTextStyle" android:text="Appels"/>
+			<TextView android:id="@+id/statMinScore" style="@style/ScoreTextStyle" android:text="Min"/>
+			<TextView android:id="@+id/statMaxScore" style="@style/ScoreTextStyle" android:text="Max"/>
+		</LinearLayout>
+		
+		<ImageView
+	        android:id="@+id/imgSeparator6"
+		    android:src="@android:drawable/divider_horizontal_bright"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:scaleType="fitXY"
+		    android:paddingLeft="5dp"
+		    android:paddingRight="5dp"
+		    android:paddingBottom="2dp"
+		    android:paddingTop="2dp" />
+	</LinearLayout>
+</LinearLayout><!-- From: file:/C:/Devs/TarotDroid.Ui.Lite/tarotDroidUiLib/src/main/res/layout/tablegameset_synthesis5.xml -->

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+	<com.facebook.widget.ProfilePictureView
+	    android:id="@+id/imgThumbnail"
+		android:layout_width="80dp"
+		android:layout_height="80dp"
+		android:layout_gravity="center_vertical"
+	    android:padding="10dp"
+	    facebook:preset_size="normal"/>
+ 
+	<LinearLayout
+	    android:orientation="vertical"
+	    android:layout_width="0dip"
+	    android:layout_height="wrap_content"
+	   	android:layout_gravity="center_vertical"
+	   	android:paddingLeft="10dp"
+	    android:layout_weight="1">
+ 
+	    <TextView android:id="@+id/txtTitle"
+	         android:layout_width="fill_parent"
+	         android:layout_height="fill_parent"
+	         android:textSize="22dp"
+	         android:textStyle="bold"
+	         android:textColor="#ffffff"
+	         android:gravity="left" />
+ 
+	    <TextView
+	         android:id="@+id/txtContent"
+	         android:layout_width="fill_parent"
+	         android:layout_height="fill_parent"
+	         android:textSize="14dp"
+	         android:textStyle="normal"
+	         android:textColor="#ffffff"
+	         android:gravity="left" />
+
+    </LinearLayout>
+</LinearLayout><!-- From: file:/C:/Devs/TarotDroid/tarotDroidUiLib/src/main/res/layout/thumbnail_item_facebook.xml --><!-- From: file:/C:/Devs/TarotDroid/tarotDroidUiFull/build/intermediates/exploded-aar/TarotDroid/tarotDroidUiLib/unspecified/res/layout/thumbnail_item_facebook.xml -->

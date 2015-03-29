@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<TextView 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		style="@style/ScoreTextStyle" 
+		android:text="ScoreTextViewTemplate"/><!-- From: file:/C:/Devs/TarotDroid/tarotDroidUiLib/src/main/res/layout/score_textview_template.xml --><!-- From: file:/C:/Devs/TarotDroid/tarotDroidUiLite/build/intermediates/exploded-aar/TarotDroid/tarotDroidUiLib/unspecified/res/layout/score_textview_template.xml -->

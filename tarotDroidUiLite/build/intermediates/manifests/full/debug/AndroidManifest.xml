@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.nla.tarotdroid.lite"
+    android:installLocation="auto"
+    android:versionCode="34"
+    android:versionName="4.0.3" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="14" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name="org.nla.tarotdroid.app.LiteApp"
+        android:debuggable="true"
+        android:icon="@drawable/icon_lite"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.TarotDroid" >
+        <activity android:name="org.achartengine.GraphicalActivity" />
+        <activity android:name="org.nla.tarotdroid.lib.ui.MainPreferencesActivity" />
+        <activity android:name="org.nla.tarotdroid.lib.ui.TabGameSetPreferencesActivity" />
+        <activity
+            android:name="org.nla.tarotdroid.lib.ui.TabGameSetActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="org.nla.tarotdroid.lib.ui.TabViewSettingsActivity" />
+        <activity
+            android:name="org.nla.tarotdroid.lib.ui.GameSetChartListActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name="org.nla.tarotdroid.lib.ui.GameSetChartViewPagerActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="org.nla.tarotdroid.lib.ui.GameSetHistoryActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name="org.nla.tarotdroid.lib.ui.NewGameSetDashboardActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name="org.nla.tarotdroid.lib.ui.GameSetCreationActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name="org.nla.tarotdroid.lib.ui.PlayerListActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name="org.nla.tarotdroid.lib.ui.PlayerStatisticsActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name="org.nla.tarotdroid.lib.ui.GameCreationActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name="org.nla.tarotdroid.lib.ui.GameReadViewPagerActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name="org.nla.tarotdroid.lib.ui.DisplayAndRemoveGameDialogActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:theme="@style/Theme.TarotDroid.Dialog" />
+        <activity android:name="org.nla.tarotdroid.lib.ui.PlayerPickerActivity" />
+        <activity
+            android:name="org.nla.tarotdroid.lib.ui.PlayerSelectorActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="org.nla.tarotdroid.lib.ui.NotificationActivity" />
+        <activity
+            android:name="org.nla.tarotdroid.lib.ui.MainDashboardActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.acra.CrashReportDialog"
+            android:excludeFromRecents="true"
+            android:finishOnTaskLaunch="true"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Dialog" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:label="@string/app_name" />
+    </application>
+
+</manifest>

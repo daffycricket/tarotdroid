@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- General info -->
+    <!-- <string name="google_map_api_key_debug">0IgVgWFseCoAyOOEFSXlrEhfjQE99UGBY_sh2CA</string> -->
+    
+    <!-- Misc activity strings -->
+    <!-- <string name="btnOk">OK</string>
+    <string name="btnCancel">Annuler</string> -->
+    
+    <!-- Main preferences activity strings -->
+	<string name="lblComputationPrefs">Points computation settings</string>
+    <string name="lblViewPrefs">Display settings</string>
+    <string name="lblGamePrefs">Game settings</string>
+    <string name="lblDevPrefs">Debug settings</string>
+    <string name="lblSimulationMode">Simulation mode</string>
+    <string name="lblGameSetView">Game display</string>
+    <string name="lblIsBelgianAuthorized">Belgian authorized (unofficial)</string>
+    <string name="lblIsPenaltyAuthorized">Penalty authorized</string>
+    <string name="lblIsPassAuthorized">Pass authorized</string>
+    <string name="lblIsMiseryAuthorized">Misery authorized at 3 or 4 (unofficial)</string>
+    <string name="lblBelgianStepPoints">Belgian points (step)</string>
+    <string name="lblIsPriseAuthorized">Minor authorized</string>
+    <string name="lblIsPetiteAuthorized">Petite authorized (unofficial)</string>
+    <string name="lblIsOneDeadPlayerAuthorized">Dead player authorized</string>
+    <string name="lblDeadPlayerAutomaticallySelected">Dead player automatic selection</string>
+	<string name="lblPetitePoints">Petit points</string>
+    <string name="lblPetiteRate">Petite rate</string>
+	<string name="lblPrisePoints">Minor points</string>
+    <string name="lblPriseRate">Minor rate</string>
+    <string name="lblGardePoints">Push points</string>
+    <string name="lblGardeRate">Push rate</string>
+    <string name="lblGardeSansPoints">Keep points</string>
+    <string name="lblGardeSansRate">Keep rate</string>
+    <string name="lblGardeContrePoints">Double keep points</string>
+    <string name="lblGardeContreRate">Double keep rate</string> 
+    <string name="lblKidAtTheEndPoints">Kid at the end points</string>
+    <string name="lblMiseryPoints">Misery points</string>
+    <string name="lblPoigneePoints">Handful points</string>
+    <string name="lblDoublePoigneePoints">Double handful points</string>
+    <string name="lblTriplePoigneePoints">Triple handful points</string>
+    <string name="lblAnnouncedAndSucceededChelemPoints">Announced and succeeded slam points</string>
+    <string name="lblAnnouncedAndFailedChelemPoints">Announced and failed slam points</string>
+    <string name="lblNotAnnouncedButSucceededChelemPoints">Not announced but succeeded slam points</string>
+
+    <!-- Game set preferences activity strings -->
+    <string name="lblDisplayNextPlayer">Highlight next distributeur</string>
+	<string name="lblGameOrderDisplay">Display games in descending order</string>
+    <string name="lblGameScoreDisplay">Display global scores for each game</string>
+    <string name="lblKeepScreenOn">Keep screen on</string>
+    
+	<!-- Main dashboard activity strings -->
+    <string name="lblMainActivityTitle">TarotDroid</string>
+    <string name="lblNewGameSet">New game set</string>
+    <string name="lblNewGameSetDetails">Count points for a new game</string>
+    <string name="lblGameSetHistory">History</string>
+    <string name="lblGameSetHistoryDetails">Display a stored game</string>
+    <string name="lblPlayers">Players</string>
+    <string name="lblPlayersDetails">Display players and modify their pictures</string>
+    <string name="lblCommunity">Community</string>
+    <string name="lblCommunityDetails">Discover and be part of TarotDroid\'s community</string>
+    <string name="lblFacebook">Facebook</string>
+    <string name="lblFacebookDetails">Join us on Facebbok</string>
+    <string name="lblGooglePlay">Google Play</string>
+    <string name="lblGooglePlayDetails">Give us feedback and install the lastest version</string>
+    <string name="lblGmail">Contact us</string>
+    <string name="lblGmailDetails">A bug? A question? An idea ? Just ask us !</string>
+    <string name="lblFullVersion">Full version</string>
+    <string name="lblFullVersionDetails">Go full and store an unlimited number of games</string>
+    <string name="lblAboutItem">About</string>
+    <string name="lblDbExportItem">Data export</string>
+    <string name="lblDbImportItem">Data import</string>
+    <string name="lblContactItem">Contact us</string>
+    <string name="lblMockItem">Mock</string>
+    <string name="lblContactUs">Contact us by email</string>
+
+    <!-- New game set activity strings -->
+    <string name="lblNewGameActivityTitle">New game</string>
+    <string name="lblNewTarot3">New 3 player style game</string>
+    <string name="lblNewTarot4">New 4 player style game</string>
+    <string name="lblNewTarot5">New 5 player style game</string>
+    <string name="lblNewTarot3Description">3 player style tarot with 3 players, or 4 players and a dead player</string>
+    <string name="lblNewTarot4Description">4 player style tarot with 4 players, or 5 players and a dead player</string>
+    <string name="lblNewTarot5Description">5 player style tarot with 5 players, or 6 players and a dead player</string>
+    <string name="lblPlayer1Name">Player 1</string>
+    <string name="lblPlayer2Name">Player 2</string>
+    <string name="lblPlayer3Name">Player 3</string>
+    <string name="lblPlayer4Name">Player 4</string>
+    <string name="lblPlayer5Name">Player 5</string>
+    <string name="lblPlayer6Name">Player 6</string>
+    <string name="lblPlayer1NameHint">Player 1 name</string>
+    <string name="lblPlayer2NameHint">Player 2 name</string>
+    <string name="lblPlayer3NameHint">Player 3 name</string>
+    <string name="lblPlayer4NameHint">Player 4 name</string>
+    <string name="lblPlayer5NameHint">Player 5 name</string>
+    <string name="lblPlayer6NameHint">Player 6 name</string>
+    <string name="lblCompulsoryPlayersSection">Compulsory players</string>
+    <string name="lblOptionalPlayerSection">Optional player</string>
+    <string name="lblStartItem">Start</string>
+    <string name="lblPlayerNumber">Player %1s</string>
+
+	<!-- Game set history activity strings -->
+    <string name="lblGameSetHistoryActivityTitlePlural">%1d stored game sets</string>
+    <string name="lblGameSetHistoryActivityTitleSingle">1 stored game set</string>
+    <string name="lblGameSetHistoryActivityTitleNone">No stored game set</string>
+    <string name="lblGameSetHistoryActivityMenuTitle">Game set played on %1s</string>
+    <string name="lblPublishGameSet">Publish on Facebook</string>
+    <string name="lblEditGameSet">Edit</string>
+    <string name="lblViewGameSet">View</string>
+    <string name="lblDeleteGameSet">Delete</string>
+    <string name="lblBluetoothDiscover">Discover devices</string>
+    <string name="lblBluetoothGetDiscoverable">Get discoverable</string>
+    <string name="lblBluetoothReceive">Download</string>
+    <string name="lblBluetoothHelp">How to?</string>
+    <string name="lblBluetoothSend">Send with bluetooth</string>
+    <string name="lblSelectBluetoothDevice">Select target device</string>
+    <string name="lblTarot3Description">3 player style tarot</string>
+    <string name="lblTarot4Description">4 player style tarot</string>
+    <string name="lblTarot5Description">5 player style tarot</string>
+    <string name="lblGameSetTitle">%1$s</string>
+    <string name="lblGameSetDescriptionSingle">%1$s game, players: %2$s</string>
+    <string name="lblGameSetDescriptionPlural">%1$s games, players: %2$s</string>
+    <string name="lblBluetoothItem">Transfer using Bluetooth</string>
+    <string name="lblInitDalItem">Remove all</string>
+    
+    <!-- New game activities strings -->
+    <string name="lblNewStandardGameTitle">New standard game</string>
+    <string name="lblUpdateGameTitle">Game update</string>
+    <string name="lblNewBelgianGameTitle">New belgian game</string>
+    <string name="lblNewPenaltyGameTitle">New penalty</string>
+    <string name="lblNewPassedGameTitle">New pass</string>
+	<string name="oudlerCount">Oudlers</string>
+    <string name="leaderPlayer">Taker</string>
+    <string name="calledPlayer">Called</string>
+    <string name="lblDeadPlayer">Dead</string>
+    <string name="pointsEarnedByAttack">Attack points</string>
+    <string name="pointsEarnedByDefense">Defense points</string>
+    <string name="lblDealer">Dealer</string>
+    <string name="lblBet">Bid</string>
+	<string name="gameOfindex">Game n°</string>
+    <string name="first">First</string>
+    <string name="second">Second</string>
+    <string name="third">Third</string>
+    <string name="fourth">Fourth</string>
+    <string name="fifth">Fifth</string>
+    <string name="lblPlus">+</string>
+    <string name="lblMinus">-</string>
+    <string name="gardeContreDescription">Double keep</string>
+    <string name="gardeSansDescription">Keep</string>
+	<string name="gardeDescription">Push</string>
+    <string name="priseDescription">Minor</string>
+	<string name="petiteDescription">Petite</string>
+    <string name="belgeDescription">Belgian</string>    
+    <string name="passDescription">Pass</string>
+    <string name="penaltyDescription">Wrong deal</string>
+    <string name="lblPoignee">Handful</string>
+    <string name="lblDoublePoignee">Double handful</string>
+    <string name="lblTriplePoignee">Triple handful</string>
+    <string name="lblKidAtTheEnd">Kid at the end</string>
+    <string name="lblMisery">Misery</string>
+    <string name="lblChelem">Slam</string>
+    <string name="lblCalledColor">Called color</string>
+    <string name="lblHeartsColor">Hearts</string>
+    <string name="lblDiamondsColor">Diamonds</string>
+    <string name="lblClubsColor">Clubs</string>
+    <string name="lblSpadesColor">Spades</string>
+    <string name="lblAnnouncedAndSucceededChelem">Announced and succeeded</string>
+    <string name="lblAnnouncedAndFailedChelem">Announced and failed</string>
+    <string name="lblNotAnnouncedButSucceededChelem">Not announced but succeeded</string>
+	<string name="lblTeam">Team</string>
+    <string name="lblDefenseTeam">Defense team</string>
+    <string name="lblLeadingTeam">Leading team</string>
+    <string name="lblBothTeams">Both</string>
+    <string name="lblValidateGame">Go</string>
+    <string name="lblDealerSection">Dealer</string>
+    <string name="lblDeadAndDealerSection">Dead and dealer</string>
+    <string name="lblMainParametersSection">Main parameters</string>
+    <string name="lblAnnoucementsSection">Annoucements</string>
+    <string name="lblPenaltedPlayer">Penalted player</string>
+    <string name="lblGlobalPenaltyPoints">Global penalty</string>
+    <string name="lblPlayerPenaltyPoints">Penalty points</string>
+    
+	<!-- Game view activities strings -->
+	<string name="lblViewGameActivityTitle">Game view</string>
+	<string name="lblViewStdTarotActivityTitle">Game n°%1$s out of %2$s</string>
+    <string name="lblViewBelgianTarotActivityTitle">Game n°%1$s out of %2$s (belgian)</string>
+	<string name="lblDeleteGameItem">Trash</string>
+
+    <!-- Stats activity strings -->
+    <string name="lblMainStatActivityTitle">Game set statistics</string>
+    
+    <!-- Tab game set activity strings -->
+    <string name="lblTabGameSetActivityNoGameTitle">No game played</string>
+    <string name="lblTabGameSetActivityOneGameTitle">1 game played</string>
+    <string name="lblTabGameSetActivitySeveralGamesTitle">%1$s games played</string>
+    <string name="lblScore">Score</string>
+    <string name="lblLeadingGames">Led</string>
+    <string name="lblSuccessfulLeadingGames">Won</string>
+    <string name="lblCalledGames">Called</string>
+    <string name="lblMinScore">Min</string>
+    <string name="lblMaxScore">Max</string>
+    <string name="shortGardeContreDescription">DK</string>
+    <string name="shortGardeSansDescription">K</string>
+    <string name="shortGardeDescription">P</string>
+    <string name="shortPriseDescription">M</string>
+    <string name="shortPetiteDescription">Pe</string>
+    <string name="shortBelgeDescription">B</string>
+    <string name="shortPassDescription">Pass</string>
+    <string name="shortPenaltyDescription">W. deal</string>
+    <string name="lblScores">Scores</string>
+    <string name="lblNewStandardGame">Game</string>
+    <string name="lblNewBelgianGame">Belgian</string>
+    <string name="lblNewPenaltyGame">Wrong deal</string>
+    <string name="lblNewPasedGame">Pass</string>
+    <string name="lblStatsView">Statistics</string>
+    <string name="lblExcelExport">Excel Export</string>
+    <string name="lblViewSettings">Settings</string>
+    <string name="lblGameOptionsDialogTitle">Game options</string>
+    <string name="lblDeleteGame">Delete</string>
+    <string name="lblViewGame">Display</string>
+    <string name="lblEditGame">Edit</string>
+    <string name="lblStandardGameSynthesis">%1$s %2$s, %3$s</string>
+    <string name="lblBelgianGameSynthesis">%1$s %2$s</string>
+    <string name="lblPassedGameSynthesis">%1$s %2$s</string>
+    <string name="lblPenaltyGameSynthesis">%1$s %2$s</string>
+    <string name="lblAddGameItem">New game</string>
+    <string name="lblAddGameStandardItem">Standard</string>
+    <string name="lblAddGameBelgianItem">Belgian</string>
+    <string name="lblAddGamePassedItem">Pass</string>
+    <string name="lblAddGamePenaltyItem">Penalty</string>
+    <string name="lblDisplayStatsItem">Charts</string>
+    <string name="lblPrefsItem">Settings</string>
+    <string name="lblHelpItem">Help</string>
+    <string name="lblGamesTitle">Games</string>
+    <string name="lblSynthesisTitle">Synthesis</string>
+    
+    <!-- Excel export strings -->
+    <string name="lblExportLeaderPlayer">Leader</string>
+    <string name="lblExportCalledPlayer">Called player</string>
+    <string name="lblExportCalledColor">Called king</string>
+    <string name="lblExportDeadAdjective">DEAD</string>
+    <string name="lblExportInProgress">Excel export in progress...</string>
+
+    <!-- DB import/export strings -->
+    <string name="lblDbHelperImportDone">Import done</string>
+    <string name="lblDbHelperPickXMLFile">Select XML file</string>
+    <string name="lblDbExportEmailContent">Find enclosed TarotDroid\'s database export</string>
+    <string name="lblDbExportEmailTitle">TarotDroid Excel Export</string>
+    <string name="lblDbExportAndroidIntentTitle">Send export by email...</string>
+    
+    <!-- Player selection activity -->
+    <string name="lblPlayerSelectionActivityTitle">Sélection des joueurs</string>
+
+    <!-- TarotDroid Community activity -->
+    <string name="lblCommunityActivityTitle">Communauté TarotDroid</string>
+
+	<!-- Game set statistics activity strings -->
+    <string name="statNameCalledKingFrequency">Called kings</string>
+    <string name="statDescCalledKingFrequency">Called kings distribution</string>
+    <string name="statNameLeadingPlayerFrequency">Takers</string>
+    <string name="statDescLeadingPlayerFrequency">Takers distribution</string>
+    <string name="statNameCalledPlayersFrequency">Called players</string>
+    <string name="statDescCalledPlayersFrequency">Called players distribution</string>
+    <string name="statNameSuccessesFrequency">Successes and failures</string>
+    <string name="statDescSuccessesFrequency">Successes and failures distribution</string>
+    <string name="statNameBetsFrequency">Bets</string>
+    <string name="statDescBetsFrequency">Bets distribution</string>
+    <string name="statNameScoreEvolution">Scores evolution</string>
+    <string name="statDescScoreEvolution">Scores evolution</string>
+    <string name="lblScoreEvolutionGames">Games</string>
+    <string name="lblScoreEvolutionPoints">Points</string>
+    <string name="lblSuccesses">Successes</string>
+    <string name="lblFailures">Failures</string>
+    
+    <!-- Player statistics activity -->
+    <string name="lblPlayerListActivityTitle">Players</string>
+    <string name="lblPlayerStatisticsActivityTitle">%1s\'s statistics</string>
+    <string name="lblPlayerStatsCreateOn">Created %1$s</string>
+    <string name="lblPlayerStatsAssociatedToFacebookIdCreateOn">Created %1$s, associated to %2$s on Facebook</string>
+    <string name="lblPlayerStatsGameSets">Game sets</string>
+    <string name="lblPlayerStatsGameSetsDetails">%1$s total played games, among which %2$s won</string>
+    <string name="lblPlayerStatsGameSetsRepartition">Game sets repartition</string>
+    <string name="lblPlayerStatsGames">Games</string>
+    <string name="lblPlayerStatsGamesDetails">%1$s total plaeyd games, among which %2$s won</string>
+    <string name="lblPlayerStatsGamesRepartition">Games repartition</string>
+    <string name="lblPlayerStatsLeadingPlayer">Leader</string>
+    <string name="lblPlayerStatsLeadingPlayerDetails">%1$s games as leader player</string>
+    <string name="lblPlayerStatsCalledPlayer">Called</string>
+    <string name="lblPlayerStatsCalledPlayerDetails">%1$s games as called player</string>
+    <string name="lblContactsOption">Contacts</string>
+    <string name="lblPictureItem">Picture</string>
+    <string name="lblSelectPictureMenuTitle">Select a picture</string>
+    <string name="lblPictureFromContactsItem">Picture of a contact</string>
+    <string name="lblSelectPicture">Player picture</string>
+    <string name="lblPictureFromFriendsFacebookItem">Picture of a Facebook friend</string>
+    <string name="lblPictureFromMeFacebookItem">My Facebook picture</string>
+    <string name="lblPictureNoPictureItem">No picture</string>
+    <string name="lblGameSetCountByGameStyleType">%1$s parties à 3 dont %2$s gagnées; %3$s parties à 4 dont %4$s gagnées; %5$s parties à 5 dont %6$s gagnées.</string>
+    <string name="lblGameCountByBetTypeItem">%1$s prises dont %2$s gagnées; %3$s gardes dont %4$s gagnées; %5$s gardes sans dont %6$s gagnées; %7$s gardes contre dont %8$s gagnées.</string>
+    
+    <!-- Rate dialog -->
+    <string name="lblRateAppTitle">Rate TarotDroid</string>
+    <string name="lblRateAppContent">If you enjoy TarotDroid, please take a few moments to rate it. Thanks for your support :)</string>
+    <string name="lblRateNow">Now</string>
+    <string name="lblRateLater">Later</string>
+    <string name="lblRateNever">No, thanks</string>
+    
+    <!-- Error strings -->
+    <string name="lblErrorImageRefresh">Picture update problem</string>
+    <string name="lblErrorStatisticsComputation">Statistics computation problem: %1$s</string>
+    <string name="lblUnexpectedError">Unexpected error: %1$s</string>
+    
+    <!-- Facebook strings -->
+    <string name="lblFacebookImpossibleToPublishGamesetWithNoGame">Impossible to publish on Facebook if no game was played</string>
+    <string name="lblFacebookGamesetBeingPublished">A publication is already in progress</string>
+    <string name="lblFacebookPostName">New game on TarotDroid</string>
+    <string name="lblFacebookPostCaption">%1$s played %2$s games</string>
+    <string name="lblFacebookPostHasWon">%1$s won with %2$s points</string>
+
+    <string name="error_dialog_default_text">Facebook communication error</string>
+	<!-- <string name="error_authentication_retry">An error occurred that requires your attention. %1$s</string> -->
+	<!-- <string name="error_authentication_reopen">An error occurred, please re-login.</string> -->
+	<!-- <string name="error_permission">Please allow us to post on your behalf.</string> -->
+	<!-- <string name="error_server">The server is busy, please retry later.</string> -->
+	<!-- <string name="error_bad_request">An error occurred, please contact the developer with the following message: %1$s</string> -->
+	<!-- <string name="error_unknown">An unknown error occurred, please contact the developer with the following message: %1$s</string> -->
+	<!-- <string name="result_dialog_title">Result</string> -->
+	<!-- <string name="result_dialog_button_text">Thanks!</string> -->
+	<!-- <string name="result_dialog_text">Posted Open Graph action, id: %1$s</string> -->
+	<!-- <string name="progress_dialog_text">Announcing, please wait...</string> -->
+	<string name="error_dialog_title">Facebook error</string>
+	<string name="error_dialog_button_text">OK</string>
+    
+</resources>

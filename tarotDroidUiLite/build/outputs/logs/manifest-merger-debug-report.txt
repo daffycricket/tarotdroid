@@ -1,0 +1,216 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:installLocation
+		ADDED from AndroidManifest.xml:6:5
+uses-sdk
+ADDED from AndroidManifest.xml:8:5
+MERGED from TarotDroid:tarotDroidUiLib:unspecified:5:5
+MERGED from TarotDroid:libviewpageindicator:unspecified:7:5
+MERGED from TarotDroid:libFacebookSDK:unspecified:20:5
+MERGED from TarotDroid:libaFileChooser:unspecified:20:5
+MERGED from com.actionbarsherlock:actionbarsherlock:4.4.0:3:3
+MERGED from com.actionbarsherlock:actionbarsherlock:4.4.0:3:3
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:8:41
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:8:15
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.BLUETOOTH
+ADDED from AndroidManifest.xml:10:2
+	android:name
+		ADDED from AndroidManifest.xml:10:19
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from AndroidManifest.xml:11:2
+	android:name
+		ADDED from AndroidManifest.xml:11:19
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:12:2
+	android:name
+		ADDED from AndroidManifest.xml:12:19
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:13:2
+	android:name
+		ADDED from AndroidManifest.xml:13:19
+uses-permission#android.permission.READ_CONTACTS
+ADDED from AndroidManifest.xml:14:2
+	android:name
+		ADDED from AndroidManifest.xml:14:19
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:15:2
+	android:name
+		ADDED from AndroidManifest.xml:15:19
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from AndroidManifest.xml:16:2
+	android:name
+		ADDED from AndroidManifest.xml:16:19
+application
+ADDED from AndroidManifest.xml:18:5
+MERGED from TarotDroid:libFacebookSDK:unspecified:24:5
+MERGED from com.actionbarsherlock:actionbarsherlock:4.4.0:4:3
+MERGED from com.actionbarsherlock:actionbarsherlock:4.4.0:4:3
+	android:label
+		ADDED from AndroidManifest.xml:18:18
+	android:debuggable
+		ADDED from AndroidManifest.xml:18:154
+	android:icon
+		ADDED from AndroidManifest.xml:18:51
+	android:theme
+		ADDED from AndroidManifest.xml:18:86
+	android:name
+		ADDED from AndroidManifest.xml:18:126
+activity#org.achartengine.GraphicalActivity
+ADDED from AndroidManifest.xml:19:9
+	android:name
+		ADDED from AndroidManifest.xml:19:21
+activity#org.nla.tarotdroid.lib.ui.MainPreferencesActivity
+ADDED from AndroidManifest.xml:20:6
+	android:name
+		ADDED from AndroidManifest.xml:20:17
+activity#org.nla.tarotdroid.lib.ui.TabGameSetPreferencesActivity
+ADDED from AndroidManifest.xml:21:6
+	android:name
+		ADDED from AndroidManifest.xml:21:17
+activity#org.nla.tarotdroid.lib.ui.TabGameSetActivity
+ADDED from AndroidManifest.xml:22:6
+	android:configChanges
+		ADDED from AndroidManifest.xml:22:77
+	android:name
+		ADDED from AndroidManifest.xml:22:17
+activity#org.nla.tarotdroid.lib.ui.TabViewSettingsActivity
+ADDED from AndroidManifest.xml:23:3
+	android:name
+		ADDED from AndroidManifest.xml:23:14
+activity#org.nla.tarotdroid.lib.ui.GameSetChartListActivity
+ADDED from AndroidManifest.xml:24:3
+	android:configChanges
+		ADDED from AndroidManifest.xml:24:80
+	android:name
+		ADDED from AndroidManifest.xml:24:14
+activity#org.nla.tarotdroid.lib.ui.GameSetChartViewPagerActivity
+ADDED from AndroidManifest.xml:25:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:25:85
+	android:name
+		ADDED from AndroidManifest.xml:25:14
+activity#org.nla.tarotdroid.lib.ui.GameSetHistoryActivity
+ADDED from AndroidManifest.xml:26:3
+	android:configChanges
+		ADDED from AndroidManifest.xml:26:78
+	android:name
+		ADDED from AndroidManifest.xml:26:14
+activity#org.nla.tarotdroid.lib.ui.NewGameSetDashboardActivity
+ADDED from AndroidManifest.xml:27:3
+	android:configChanges
+		ADDED from AndroidManifest.xml:27:84
+	android:name
+		ADDED from AndroidManifest.xml:27:14
+activity#org.nla.tarotdroid.lib.ui.GameSetCreationActivity
+ADDED from AndroidManifest.xml:28:3
+	android:configChanges
+		ADDED from AndroidManifest.xml:28:79
+	android:name
+		ADDED from AndroidManifest.xml:28:14
+activity#org.nla.tarotdroid.lib.ui.PlayerListActivity
+ADDED from AndroidManifest.xml:29:3
+	android:configChanges
+		ADDED from AndroidManifest.xml:29:74
+	android:name
+		ADDED from AndroidManifest.xml:29:14
+activity#org.nla.tarotdroid.lib.ui.PlayerStatisticsActivity
+ADDED from AndroidManifest.xml:30:3
+	android:configChanges
+		ADDED from AndroidManifest.xml:30:80
+	android:name
+		ADDED from AndroidManifest.xml:30:14
+activity#org.nla.tarotdroid.lib.ui.GameCreationActivity
+ADDED from AndroidManifest.xml:31:6
+	android:configChanges
+		ADDED from AndroidManifest.xml:31:79
+	android:name
+		ADDED from AndroidManifest.xml:31:17
+activity#org.nla.tarotdroid.lib.ui.GameReadViewPagerActivity
+ADDED from AndroidManifest.xml:32:6
+	android:configChanges
+		ADDED from AndroidManifest.xml:32:84
+	android:name
+		ADDED from AndroidManifest.xml:32:17
+activity#org.nla.tarotdroid.lib.ui.DisplayAndRemoveGameDialogActivity
+ADDED from AndroidManifest.xml:33:6
+	android:configChanges
+		ADDED from AndroidManifest.xml:33:140
+	android:theme
+		ADDED from AndroidManifest.xml:33:93
+	android:name
+		ADDED from AndroidManifest.xml:33:17
+activity#org.nla.tarotdroid.lib.ui.PlayerPickerActivity
+ADDED from AndroidManifest.xml:34:6
+	android:name
+		ADDED from AndroidManifest.xml:34:18
+activity#org.nla.tarotdroid.lib.ui.PlayerSelectorActivity
+ADDED from AndroidManifest.xml:35:6
+	android:configChanges
+		ADDED from AndroidManifest.xml:35:82
+	android:name
+		ADDED from AndroidManifest.xml:35:18
+activity#org.nla.tarotdroid.lib.ui.NotificationActivity
+ADDED from AndroidManifest.xml:36:6
+	android:name
+		ADDED from AndroidManifest.xml:36:18
+activity#org.nla.tarotdroid.lib.ui.MainDashboardActivity
+ADDED from AndroidManifest.xml:38:3
+	android:label
+		ADDED from AndroidManifest.xml:38:128
+	android:configChanges
+		ADDED from AndroidManifest.xml:38:77
+	android:name
+		ADDED from AndroidManifest.xml:38:14
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:39:10
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:40:17
+	android:name
+		ADDED from AndroidManifest.xml:40:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:41:17
+	android:name
+		ADDED from AndroidManifest.xml:41:27
+activity#org.acra.CrashReportDialog
+ADDED from AndroidManifest.xml:45:6
+	android:theme
+		ADDED from AndroidManifest.xml:45:58
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:45:138
+	android:name
+		ADDED from AndroidManifest.xml:45:16
+	android:finishOnTaskLaunch
+		ADDED from AndroidManifest.xml:45:172
+	android:launchMode
+		ADDED from AndroidManifest.xml:45:102
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from AndroidManifest.xml:47:3
+	android:name
+		ADDED from AndroidManifest.xml:47:14
+	android:value
+		ADDED from AndroidManifest.xml:47:60
+activity#com.facebook.LoginActivity
+ADDED from AndroidManifest.xml:48:3
+	android:label
+		ADDED from AndroidManifest.xml:48:55
+	android:name
+		ADDED from AndroidManifest.xml:48:13

@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="msgGameAdded">Game added</string>
+    <string name="msgGameUpdated">Game updated</string>
+    <string name="msgGameDeleted">Game deleted</string>
+    <string name="msgValidationKo">Incorrect data, please correct to validate</string>
+    <string name="msgToCome">Yet to come...</string>
+    <string name="titleExitGameSetYesNo">Restart of the game</string>
+    <string name="msgGameSetNotStored">This game set won\'t be stored because you use a limited version and have already stored 5 game sets</string>
+    <string name="msgSelectDeadPlayer">Vous devez sélectionner le mort avant de pouvoir continuer"</string>
+    <string name="msgExitGameSetYesNo">
+    	<![CDATA[
+    	You are about to restart a new game set and delete all games and players.<br/><br/>
+    	Do you wish to proceed ?
+    	]]>
+    </string>
+    <string name="titleExitGameSetYesNoWithDAL">Game exit</string>
+    <string name="msgExitGameSetYesNoWithDAL">
+    	<![CDATA[
+    	You are about to leave the game set. However, if you do so, you can edit it using the \'Game set history\' menu.<br/><br/>
+    	Do you wish to proceed ?
+    	]]>
+    </string>
+    <string name="msgPreferencesUpdated">Preferences updated</string>
+	<string name="titleReinitDalYesNo">Deletion of all Game Sets</string>
+    <string name="msgReinitDalYesNo">
+    	<![CDATA[
+    	Warning! You re about to delete all the data: game sets, games and player names. This action is irreversible.<br/><br/>
+    	Do you wish to proceed ?
+    	]]>
+    </string>
+	<string name="titleRemoveGameSetYesNo">Game set removal</string>
+    <string name="msgRemoveGameSetYesNo">
+    	<![CDATA[
+    	Do you truly wish to delete this game set ? This action is irreversible.
+    	]]>
+    </string>
+	<string name="titleRemoveGameYesNo">Game number %1$s deletion</string>
+    <string name="msgRemoveGameYesNo">
+    	<![CDATA[
+    	Do you truly wish to delete this game ?
+    	]]>
+    </string>
+    <string name="msgRemoveGameAndSubsequentGamesYesNo">
+    	<![CDATA[
+    	Do you truly wish to delete this game ? Be careful: it will also remove all subsequent games.
+    	]]>
+    </string>
+    <string name="titleAbout">About TarotDroid  %1$s</string>
+    <string name="msgAboutLimited">
+	   	<![CDATA[
+		TarotDroid is an application that helps you count easily your 3, 4 or 5 player style tarot games. It also allows you to store and keep track of your games.
+		
+		<br/><br/>
+		<b>New with version 4</b>: you can now publish and share your games on your <b><a href="http://www.facebook.com">Facebook</a></b> page.
+		
+		<br/><br/>
+		This is a limited version that allows you to store only 5 game sets. Of course you can still count game points for more than 3 game sets, but the games won\'t be stored. A unlmited commercial version will be available any time soon on the Android Maket.
+		
+		<br/><br/>
+		TarotDroid was created to suit the special needs of a group of players, because the other applications available on the Market didn\'t suit them.
+		 For instance, TarotDroid :
+		<br/> - can help you count points for tarot games including a \'dead\' player: at each deal, a player doesn\'t, play he\'s said to be \'dead\'.
+		<br/> - supports \'Belgian\' style game.
+		<br/>Both these features have nothing to do with official rules and hence aren\'t activated by default. To use them, you need to activate them in TarotDroid\'s global preferences.
+		<br/>
+		<br/>Many thanks to :
+		<br/> - <a href=\"http://www.achartengine.org\"><b>AChartEngine</b></a>\'s team for their free charting framework.
+		<br/> - <b><a href="http://https://github.com/JakeWharton">Jake WHARTON</a></b> for both frameworks <b><a href="http://actionbarsherlock.com">ActionBarSherlock</a></b> and <b><a href="http://viewpagerindicator.com">ViewPageIndicator</a></b>.
+		<br/> - <b><a href="https://github.com/iPaulPro">Paul BURKE</a></b> for his file selector library <b><a href="https://github.com/iPaulPro/aFileChooser">aFileChooser</a></b>.
+		<br/> - <b><a href="https://github.com/KevinGaudin">Kevin GAUDIN</a></b> for his crash report library <b><a href="https://github.com/ACRA/acra">ACRA</a></b>.
+		<br/>
+		<br/>Any suggestions, criticisms or questions are welcome! Send-them to <a href=\"mailto:tarotdroid@gmail.com\"><b>tarotdroid@gmail.com</b></a> or post them directly on TarotDroid\'s Facebook wall.
+	   	]]>
+	</string>
+    <string name="msgAbout">
+	   	<![CDATA[
+		TarotDroid is an application that helps you count easily your 3, 4 or 5 player style tarot games. It also allows you to store and keep track of your games.
+		
+		<br/><br/>
+		<b>New with version 4</b>: you can now publish and share your games on your <b><a href="http://www.facebook.com">Facebook</a></b> page. 
+		
+		<br/><br/>
+		TarotDroid was created to suit the special needs of a group of players, because the other applications available on the Market didn\'t suit them.
+		 For instance, TarotDroid :
+		<br/> - can help you count points for tarot games including a \'dead\' player: at each deal, a player doesn\'t, play he\'s said to be \'dead\'.
+		<br/> - supports \'Belgian\' style game.
+		<br/>Both these features have nothing to do with official rules and hence aren\'t activated by default. To use them, you need to activate them in TarotDroid\'s global preferences.
+		<br/>
+		<br/>Many thanks to :
+		<br/> - <a href=\"http://www.achartengine.org\"><b>AChartEngine</b></a>\'s team for their free charting framework.
+		<br/> - <b><a href="http://https://github.com/JakeWharton">Jake WHARTON</a></b> for both frameworks <b><a href="http://actionbarsherlock.com">ActionBarSherlock</a></b> and <b><a href="http://viewpagerindicator.com">ViewPageIndicator</a></b>.
+		<br/> - <b><a href="https://github.com/iPaulPro">Paul BURKE</a></b> for his file selector library <b><a href="https://github.com/iPaulPro/aFileChooser">aFileChooser</a></b>.
+		<br/> - <b><a href="https://github.com/KevinGaudin">Kevin GAUDIN</a></b> for his crash report library <b><a href="https://github.com/ACRA/acra">ACRA</a></b>.
+		<br/>
+		<br/>Any suggestions, criticisms or questions are welcome! Send-them to <a href=\"mailto:tarotdroid@gmail.com\"><b>tarotdroid@gmail.com</b></a> or post them directly on TarotDroid\'s Facebook wall.
+	   	]]>
+	</string>
+    <string name="titleHelp">Help</string>
+    <string name="msgHelp">
+	   	<![CDATA[
+		Two different views of your game set are available:<br/> 
+		<br/>&nbsp;- either a full game table.
+		<br/>&nbsp;- or a global synthesis by player.
+		To switch between these views, just swype the screen horizontally or click on any title above. 
+	   	<br/><br/>
+	   	
+		Several features are available through the action bar at he top:
+		<br/> - Add a new game.
+		<br/> - Add a new belgian game (avaible only if activated in the preferences).
+		<br/> - Display game set statistics, especially a score evolution chart for each player.
+		<br/> - Modify the preferences.
+		<br/><br/>
+		
+		For each new game, a line is added to the scores table :
+		<br/> - The taker can be distinguished by a small yellow Droid.
+		<br/> - For 5 players style, the called player can be distinguished by the called king color.
+		<br/> - Defense players are all of the same color.
+		<br/>The global synthesis is also updated. 
+		<br/><br/>Furthermore, it is also possible to display each game and to delete the last game by long clicking on the corresponding line.
+		<br/><br/>
+		Have fun !
+	   	]]>
+	</string>
+    <string name="titleProblemWithCharts">Impossible to display statistics</string>
+    <string name="msgGameSetDeleted">Game set deleted</string>
+    <string name="msgGameSetsDeleted">All game sets deleted</string>
+    <string name="msgGamesRetrieval">Retrieving games...</string>
+    <string name="msgGameSetsRetrieval">Retrieving game sets...</string>
+    <string name="msgGameSetsDeletion">Deleting all game sets...</string>
+    <string name="msgGameCreation">Game creation...</string>
+    <string name="msgGameUpdate">Game update...</string>
+    <string name="msgGameDeletion">Game deletion...</string>
+    <string name="msgGameSetCreation">Game set creation...</string>
+    <string name="msgGameSetDeletion">Game set deletion...</string>
+    <string name="msgGameSetExportedToExcelFile">Game set exported to Excel file here: </string>
+    <string name="msgGameSetExportError">Excel export error: </string>
+    
+    <string name="titleHelpNewStd3Game">3 player style announcements</string>
+    <string name="msgHelpNewStd3Game">
+	   	<![CDATA[
+		<b>Handful:</b> 13 trumps in hand.
+		<br/><b>Double handful:</b> 15 trumps in hand.
+		<br/><b>Triple handful:</b> 18 trumps in hand.
+		<br/><b>Kid at the end:</b> individual (1 of trumps) held to the end, whether won or lost.  
+		<br/><b>Slam:</b> all cards won by the attack team.
+		<br/>
+		<br/>The excuse is considered as a trump for handfuls.
+	   	]]>
+	</string>
+    
+    <string name="titleHelpNewStd4Game">4 player style announcements</string>
+    <string name="msgHelpNewStd4Game">
+	   	<![CDATA[
+		<b>Handful:</b> 10 trumps in hand.
+		<br/><b>Double handful:</b> 13 trumps in hand.
+		<br/><b>Triple handful:</b> 15 trumps in hand.
+		<br/><b>Kid at the end:</b> individual (1 of trumps) held to the end, whether won or lost.  
+		<br/><b>Slam:</b> all cards won by the attack team.
+		<br/>
+		<br/>The excuse is considered as a trump for handfuls.
+	   	]]>
+	</string>
+
+    <string name="titleHelpNewStd5Game">5 player style announcements</string>
+    <string name="msgHelpNewStd5Game">
+	   	<![CDATA[
+		<b>Handful:</b> 10 trumps in hand.
+		<br/><b>Double handful:</b> 13 trumps in hand.
+		<br/><b>Triple handful:</b> 15 trumps in hand.
+		<br/><b>Misery:</b> either no trump or no court cards.
+		<br/><b>Kid at the end:</b> individual (1 of trumps) held to the end, whether won or lost.  
+		<br/><b>Slam:</b> all cards won by the attack team.
+		<br/>
+		<br/>The excuse is considered as a trump for handfuls.
+		<br/>The excuse in hand cancels the misery.
+	   	]]>
+	</string>
+	
+		
+	<string name="titleHelpNewBelgian3Game">3 player belgian style</string>
+    <string name="msgHelpNewBelgian3Game">
+	   	<![CDATA[
+	   	TO TRANSLATE : A l\'inverse du tarot officiel, l\'objectif de la belge est de réaliser le moins de points possibles à la fin du jeu. 
+	   	Le premier est celui qui réalise le moins de points, le dernier est celui qui réalise le plus de points.<br/><br/>
+	   	La belge peut etre utilisée pour forcer les joueurs \'frileux\' à prendre, afin d\'éviter de nombreux tours de disribution sans annonce. 
+	   	En effet, un joueur qui a une poignée ou de nombreuses têtes mais qui n\'annonce rien prend le risque de ganger de nombreux plis et ainsi de perdre à la belge.<br/>
+	   	<br/>
+	   	For three players, points are computed as follows:<br/>
+	   	 - the first earns %1$s points.<br/>
+	   	 - the second earns no point.<br/>
+	   	 - the third looses %1$s points.<br/>
+	   	]]>
+	</string>
+	
+	<string name="titleHelpNewBelgian4Game">4 player belgian style</string>
+    <string name="msgHelpNewBelgian4Game">
+	   	<![CDATA[
+	   	TO TRANSLATE : A l\'inverse du tarot officiel, l\'objectif de la belge est de réaliser le moins de points possibles à la fin du jeu. 
+	   	Le premier est celui qui réalise le moins de points, le dernier est celui qui réalise le plus de points.<br/><br/>
+	   	La belge peut etre utilisée pour forcer les joueurs \'frileux\' à prendre, afin d\'éviter de nombreux tours de disribution sans annonce. 
+	   	En effet, un joueur qui a une poignée ou de nombreuses têtes mais qui n\'annonce rien prend le risque de ganger de nombreux plis et ainsi de perdre à la belge.<br/>
+	   	<br/>
+	   	For four players, points are computed as follows:<br/>
+	   	 - the first earns %2$s points.<br/>
+	   	 - the second earns %1$s point.<br/>
+	   	 - the third looses %1$s points.<br/>
+	   	 - the fourth looses %2$s points.<br/>
+	   	]]>
+	</string>
+	
+	<string name="titleHelpNewBelgian5Game">5 player belgian style</string>
+    <string name="msgHelpNewBelgian5Game">
+	   	<![CDATA[
+	   	TO TRANSLATE : A l\'inverse du tarot officiel, l\'objectif de la belge est de réaliser le moins de points possibles à la fin du jeu. 
+	   	Le premier est celui qui réalise le moins de points, le dernier est celui qui réalise le plus de points.<br/><br/>
+	   	La belge peut etre utilisée pour forcer les joueurs \'frileux\' à prendre, afin d\'éviter de nombreux tours de disribution sans annonce. 
+	   	En effet, un joueur qui a une poignée ou de nombreuses têtes mais qui n\'annonce rien prend le risque de ganger de nombreux plis et ainsi de perdre à la belge.<br/>
+		<br/>	   	
+	   	For five players, points are computed as follows:<br/>
+	   	 - the first earns %2$s points.<br/>
+	   	 - the second earns %1$s point.<br/>
+	   	 - the third earns no point.<br/>
+	   	 - the fourth looses %1$s points.<br/>
+	   	 - the fifth looses %2$s points.<br/>
+	   	]]>
+	</string>
+	
+	<string name="titleHelpNewPassedGame">Détails sur la passe</string>
+    <string name="msgHelpNewPassedGame">
+	   	<![CDATA[
+	   	TODO...
+	   	]]>
+	</string>
+	
+	<string name="titleHelpNewPenaltyGame">Détails sur la fausse donne</string>
+    <string name="msgHelpNewPenaltyGame">
+	   	<![CDATA[
+	   	TODO...
+	   	]]>
+	</string>
+	
+	<!-- Exceptions -->
+    <string name="msgStoreGameSetInDalException">
+	   	<![CDATA[
+		A problem occured when storing the game set: 
+	   	]]>
+	</string>
+    
+    <string name="msgStoreGameInDalException">
+	   	<![CDATA[
+		A problem occured when storing the game : 
+	   	]]>
+	</string>
+	
+	<string name="msgDeleteGameFromDalException">
+	   	<![CDATA[
+		A problem occured when deleting the game : 
+	   	]]>
+	</string>
+	
+	<string name="msgDeleteGameSetFromDalException">
+	   	<![CDATA[
+		A problem occured when deleting the game set : 
+	   	]]>
+	</string>
+	
+	<string name="msgDeleteGameSetsFromDalException">
+	   	<![CDATA[
+		A problem occured when deleting the game sets : 
+	   	]]>
+	</string>
+
+	<string name="titleYouCanAssociateAPictureToAPlayer">Facebook picture</string>
+    <string name="msgYouCanAssociateAPictureToAPlayer">
+    	<![CDATA[
+    	You can associate a Facebook picture to a player with a long click on his name. 
+    	]]>
+    </string>
+	
+	<string name="titleYouCanModifyAGame">Edit or delete a game</string>
+    <string name="msgYouCanModifyAGame">
+    	<![CDATA[
+    	You can display, edit or delete a game with a long click on its row.
+    	]]>
+    </string>
+	
+    <string name="titleUnmanagedErrorGameSetLost">Unexpected problem</string>
+    <string name="msgUnmanagedErrorGameSetLost">
+    	<![CDATA[
+    	An unexpected problem occured, the page must be closed. If your game set is stored, you can reload it on the history page.
+    	]]>
+    </string>
+    
+	<!-- Bluetooth -->
+	<string name="msgActivateBluetooth">You need to activate bluetooth first.</string>
+	<string name="msgRunnningScanSolo">Discovering devices. Found %1$s device.</string>
+	<string name="msgRunnningScanMulti">Scan des périphériques. Found %1$s devices.</string>
+	<string name="msgWaitingForSender">Waiting for sender to connect...</string>
+	<string name="msgWaitingForReceiver">Connected to %1$s...</string>
+	<string name="msgDownloadingFromSender">Download in progress...</string>
+	<string name="msgSendingToReceviver">Upload in progress...</string>
+	<string name="msgStoringDownloadedGameSet">Storage in progress...</string>
+	<string name="msgDownloadSuccededSolo">1 game set downloaded and stored.</string>
+	<string name="msgDownloadSuccededMulti">%1$s game sets downloaded and stored.</string>
+	<string name="msgSendSuccededSolo">1 game set sent.</string>
+	<string name="msgSendSuccededMulti">%1$s game set sent.</string>
+	<string name="msgBluetoothError">A bluetooth problem occured: %1$s</string>
+	<string name="msgLimitedVersionInformation">You\'ve already stored 5 game sets, you can\'t receive any additional one with the limited version.</string>
+	<string name="msgRunDiscoverDevicesFirst">You need to discover at least one bluetooth device first.</string>
+	
+	<string name="titleBluetoothTransferProblem">Transfer problem</string>
+    <string name="msgBluetoothTransferProblem">
+	   	<![CDATA[
+	   	An error occured during the transf. It is very likely to be caused by different versions of TarotDroid on both devices. <br/><br/>
+	   	Update TarotDroid on both devices with the latest version available on the Google Play Store then retry.
+	   	If the problem still occurs, contact us using TarotDroid\'s Facebook or send us an email to tarotdroid@gmail.com.<br/><br/>
+	   	&nbsp;- TarotDroid\'s version : %1$s<br/>
+	   	&nbsp;- Error details: %2$s
+	   	]]>
+	</string>
+	
+	<string name="titleHelpBluetooth">Bluetooth transfer</string>
+    <string name="msgHelpBluetooth">
+	   	<![CDATA[
+	   	You can use bluetooth to transfer a game set from one device to another. To do so, you need to follow the steps below : <br><br>
+	   	
+	   	<b>Step 1</b> - First of all, you need to activate bluetooth on both devices.<br>
+	   	<b>Step 2</b> - On the receiving device, click on \'Get discoverable\' then answer \'Yes\' to the system question.<br>
+	   	<b>Step 3</b> - On the sending device, click on \'Discover devices\'. For 12 seconds this device is going to seach for discoverable devices.<br>
+	   	<b>Step 4</b> - Once the discovery is over, on the receiving device click on \'Download\': it now waits for a connection.<br>
+	   	<b>Step 5</b> - On the sending device, long click on a game set, pick \'Send with bluetooth\' and select the wainting device among the list of discovered devices.<br><br>
+	   	
+	   	In a few seconds, the game set is transfered and stored on the receving device. You can then display it, display its statistics or even carry on by adding new games.   
+	   	]]>
+	</string>
+	   	
+	<string name="titleFacebookPublish">Publish on Facebook</string>
+    <string name="msgFacebookPublish">
+	   	<![CDATA[
+	   	Do you wish to share this game set on Facebook ? 
+	   	]]>
+	</string>
+	
+	<string name="titleDbHelperYouNeedAFileExplorer">File selection impossible</string>
+    <string name="msgDbHelperYouNeedAFileExplorer">
+	   	<![CDATA[
+	   	You need to install a file explorer.
+	   	]]>
+	</string>
+	
+	<string name="titleFacebookNotificationInProgress">Facebook publish</string>
+    <string name="msgFacebookNotificationInProgress">
+	   	<![CDATA[
+	   	Publish in progress
+	   	]]>
+	</string>
+    
+	<string name="titleFacebookNotificationDone">Published</string>
+    <string name="msgFacebookNotificationDone">
+	   	<![CDATA[
+	   	Click to check the game set online
+	   	]]>
+	</string>
+	
+	<string name="titleFacebookNotificationError">Publish failed</string>
+    <string name="msgFacebookNotificationError">
+	   	<![CDATA[
+	   	Publish failed :/ Try again later.
+	   	]]>
+	</string>
+	
+    <string name="titleRestartFacebookPublication">Please publish again...</string>
+	
+	<string name="titleDbExportFailed">Export failed</string>
+	<string name="msgDbExportFailed">Database export failed :/ Please try again later.</string>
+	<string name="titleInternetConnexionNecessary">You must be connected to the internet.</string>
+</resources>
